@@ -730,5 +730,17 @@
       "sec": 61,
       "lecturer": "Mr.Brian Akabagy Enyiawah",
       "receive": "160 "
+   },
+   {
+      "code": "0041002",
+      "name": "Communicative English",
+      "type": "GE-1",
+      "credit": " 2 (2-0-4)",
+      "time": "Tu13:00-15:00 RN1-805",
+      "mid": "สอบกลางภาค 30/8/2566 เวลา 17:30:00 ถึง 19:30:00",
+      "Final": "สอบปลายภาค 30/10/2566 เวลา 17:30:00 ถึง 19:30:00",
+      "sec": 1,
+      "lecturer": "Mr.Eduado Espenosila",
+      "receive": "150 "
    }
 ]
