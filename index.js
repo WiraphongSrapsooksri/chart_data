@@ -31,18 +31,44 @@ app.get('/Group/:id', (req, res) => {
    }
 });
 
+// app.get('/seccount/:type', (req, res) => {
+//    const type = req.params.type;
+//    try {
+//       const filteredData = dataALL.filter(item => item.type === type);
+//       const result = filteredData.map(item => ({
+//          code: item.code,
+//          name: item.name,
+//          seccount: item.length
+//       }));
+//       res.json(result);
+//    } catch {
+//       res.status(404).send("not found");
+//    }
+// });
+
 app.get('/seccount/:type', (req, res) => {
    const type = req.params.type;
    try {
       const filteredData = dataALL.filter(item => item.type === type);
-      // const result = filteredData.map(item => ({
-      //    code: item.code,
-      //    name: item.name,
-      //    seccount: item.length
-      // }));
-      res.json(filteredData);
-   } catch {
-      res.status(404).send("not found");
+      const result = filteredData.map(item => ({
+         code: item.code,
+         name: item.name
+      }));
+
+      const mergedObjects = [];
+
+      result.map(data => {
+         if (!mergedObjects.map(mo => mo.code).includes(data.code)) {
+            mergedObjects.push({
+               ...data,
+               sec_count: filteredData.filter(df => df.code === data.code).length
+            })
+         }
+      })
+
+      res.json(mergedObjects);
+   } catch (error) {
+      res.status(404).send("Not found");
    }
 });
 
