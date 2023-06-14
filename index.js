@@ -12,13 +12,9 @@ app.get("/", (req, res) => {
 app.get('/datamajor', (req, res) => {
    res.json(datas)
 })
-
-// app.get('/datamajor/:code', (req, res) => {
-//    res.json(datamajor.find(data =>
-//       console.log(data)
-//       // data => data.code === Number(req.params.code)
-//       ))
-// })
+app.get('/Group/:id', function (req, res) {
+   res.send('Group' + req.params.id);
+});
 
 app.listen(port, () => {
    console.log("Starting node.js at port " + port);
