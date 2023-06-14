@@ -31,21 +31,6 @@ app.get('/Group/:id', (req, res) => {
    }
 });
 
-// app.get('/seccount/:type', (req, res) => {
-//    const type = req.params.type;
-//    try {
-//       const filteredData = dataALL.filter(item => item.type === type);
-//       const result = filteredData.map(item => ({
-//          code: item.code,
-//          name: item.name,
-//          seccount: item.length
-//       }));
-//       res.json(result);
-//    } catch {
-//       res.status(404).send("not found");
-//    }
-// });
-
 app.get('/seccount/:type', (req, res) => {
    const type = req.params.type;
    try {
