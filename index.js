@@ -3,6 +3,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 const datamajor = require('./dataMajor.json')
 const datas = require("./data2.json")
+
+
 app.get("/", (req, res) => {
    res.send("Hello! Node.js");
 });
