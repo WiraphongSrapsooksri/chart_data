@@ -31,35 +31,23 @@ app.get('/Group/:id', (req, res) => {
    }
 });
 
-app.get('Filter/day/:id', (req, res) => {
-   const id = req.params.id;
-   try {
-      const data = require("./Group/dataALL.json")
-      if (data.length > 0) {
-         res.json(data);
-      } else {
-         res.status(404).send("Group not found");
-      }
-   } catch {
-      res.status(404).send("Group not found");
-   }
-})
 
 app.post('/Filter', (req, res) => {
-   const searchData = req.body;
-
-   const searchResults = dataALL.filter(item => {
-      return searchData.type === item.type &&
-         (searchData.code.includes(item.code) || searchData.code.length == 0) &&
-         (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
-         (
-            item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
-         )
-   });
-
-   res.send(searchResults);
+   try {
+      const searchData = req.body;
+      const searchResults = dataALL.filter(item => {
+         return searchData.type === item.type &&
+            (searchData.code.includes(item.code) || searchData.code.length == 0) &&
+            (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
+            (
+               item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
+            )
+      });
+      res.send(searchResults);
+   } catch {
+      res.status(404).send("Not found");
+   }
 });
-
 
 app.listen(port, () => {
    console.log("Starting node.js at port " + port);
