@@ -1,5 +1,6 @@
 [
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -12,6 +13,7 @@
       "lecturer": "อ.ดร.เรณุมาศ จันทรศิริรัตน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -24,6 +26,7 @@
       "lecturer": "ผศ.ดร.ประวีณ์รตา สุขรัตน์ฤทธิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -36,6 +39,7 @@
       "lecturer": "ผศ.ดร.ชัยยนต์ ทองสุขแก้ง"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -48,6 +52,7 @@
       "lecturer": "อ.ก่อกิจบุญ ฟูคำ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -60,6 +65,7 @@
       "lecturer": "อ.ดร.พิลานุช ภูษาวิโศธน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -72,6 +78,7 @@
       "lecturer": "ผศ.ดร.อินธิสาร ไชยสุข"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -84,6 +91,7 @@
       "lecturer": "อ.ดร.อรรถพล ศรีประเสริฐ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -96,6 +104,7 @@
       "lecturer": "อ.ณฐนน วรกิตตนนท์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -108,6 +117,7 @@
       "lecturer": "อ.ทวีพงษ์ สืบวัฒนะ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -120,6 +130,7 @@
       "lecturer": "อ.หทัย ไชยงาม"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -132,6 +143,7 @@
       "lecturer": "อ.ก่อกิจบุญ ฟูคำ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( รวม ITMB 81 82)",
@@ -144,6 +156,7 @@
       "lecturer": "ผศ.แตงอ่อน ศรีรักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -156,6 +169,7 @@
       "lecturer": "อ.ดร.พิมพ์ยุพา ประพันธ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -168,6 +182,7 @@
       "lecturer": "อ.ดร.วรยา โสมอินทร์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -180,6 +195,7 @@
       "lecturer": "ผศ.ดร.กิตติพงษ์ ประพันธ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -192,6 +208,7 @@
       "lecturer": "อ.ก่อกิจบุญ ฟูคำ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -204,6 +221,7 @@
       "lecturer": "อ.อัมพิกา ภัทรพงศานติ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -216,6 +234,7 @@
       "lecturer": "อ.ธนิดา ศรีปัจฉิม"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -228,6 +247,7 @@
       "lecturer": "อ.ดร.นุชศรา โชคสวนทรัพย์ ทองแสน"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -240,6 +260,7 @@
       "lecturer": "อ.อัมพิกา ภัทรพงศานติ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -252,6 +273,7 @@
       "lecturer": "ผศ.ดร.กิตติพงษ์ ประพันธ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -264,6 +286,7 @@
       "lecturer": "อ.ดร.วรยา โสมอินทร์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( +1MD)",
@@ -276,6 +299,7 @@
       "lecturer": "ผศ.แตงอ่อน ศรีรักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -288,6 +312,7 @@
       "lecturer": "อ.หทัย ไชยงาม"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -300,6 +325,7 @@
       "lecturer": "อ.ทวีพงษ์ สืบวัฒนะ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -312,6 +338,7 @@
       "lecturer": "อ.ณฐนน วรกิตตนนท์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -324,6 +351,7 @@
       "lecturer": "อ.ดร.อรรถพล ศรีประเสริฐ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -336,6 +364,7 @@
       "lecturer": "ผศ.ดร.อินธิสาร ไชยสุข"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -348,6 +377,7 @@
       "lecturer": "อ.ดร.พิลานุช ภูษาวิโศธน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -360,6 +390,7 @@
       "lecturer": "ผศ.ดร.ประวีณ์รตา สุขรัตน์ฤทธิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -372,6 +403,7 @@
       "lecturer": "อ.ดร.เรณุมาศ จันทรศิริรัตน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -384,6 +416,7 @@
       "lecturer": "อ.ดร.เรณุมาศ จันทรศิริรัตน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -396,6 +429,7 @@
       "lecturer": "ผศ.ดร.ประวีณ์รตา สุขรัตน์ฤทธิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -408,6 +442,7 @@
       "lecturer": "อ.ดร.พิลานุช ภูษาวิโศธน์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -420,6 +455,7 @@
       "lecturer": "ผศ.ดร.อินธิสาร ไชยสุข"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -432,6 +468,7 @@
       "lecturer": "อ.ดร.อรรถพล ศรีประเสริฐ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -444,6 +481,7 @@
       "lecturer": "อ.ณฐนน วรกิตตนนท์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -456,6 +494,7 @@
       "lecturer": "อ.ทวีพงษ์ สืบวัฒนะ"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -468,6 +507,7 @@
       "lecturer": "ผศ.แตงอ่อน ศรีรักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -480,6 +520,7 @@
       "lecturer": "อ.ดร.วรยา โสมอินทร์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -492,6 +533,7 @@
       "lecturer": "อ.ธนิดา ศรีปัจฉิม"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -504,6 +546,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( +1MD +AS)",
@@ -516,6 +559,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -528,6 +572,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( +1MD)",
@@ -540,6 +585,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -552,6 +598,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -564,6 +611,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -576,6 +624,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -588,6 +637,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -600,6 +650,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -612,6 +663,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -624,6 +676,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -636,6 +689,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -648,6 +702,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -660,6 +715,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -672,6 +728,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -684,6 +741,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -696,6 +754,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -708,6 +767,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -720,6 +780,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031001)",
@@ -732,6 +793,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( ITMB โปรแกรมไทย)",
@@ -744,6 +806,7 @@
       "lecturer": "ผศ.แตงอ่อน ศรีรักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( ITMB โปรแกรมไทย)",
@@ -756,6 +819,7 @@
       "lecturer": "ผศ.แตงอ่อน ศรีรักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( 1IB (IB-ITHM คณะเรียนรวมกัน))",
@@ -768,6 +832,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( 1CS.T)",
@@ -780,6 +845,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
       "note": "( 1EIC)",
@@ -792,9 +858,10 @@
       "lecturer": "Mr.Robert Bachtell Eastland"
    },
    {
+      "type": "GE-1",
       "code": "0041001",
       "name": "Preparatory English",
-      "note": "( 1ITHM (IB-ITHM คณะเรียนรวมกัน))",
+      "note": "( 1ITHM   (IB-ITHM คณะเรียนรวมกัน))",
       "credit": "2 (2-0-4)",
       "time": "Th08:00-10:00 RN1-607",
       "sec": 201,
@@ -804,6 +871,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041002",
       "name": "Communicative English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031002)",
@@ -816,6 +884,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041002",
       "name": "Communicative English",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031002)",
@@ -828,6 +897,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041002",
       "name": "Communicative English",
       "note": "( 1IB)",
@@ -840,6 +910,7 @@
       "lecturer": "Mr.Eduado Espenosila"
    },
    {
+      "type": "GE-1",
       "code": "0041003",
       "name": "English for Humanities and Social Sciences Purposes",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031003)",
@@ -852,6 +923,7 @@
       "lecturer": "รศ.ดร.ดวงเด่น นาคสีหราช"
    },
    {
+      "type": "GE-1",
       "code": "0041003",
       "name": "English for Humanities and Social Sciences Purposes",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031003)",
@@ -864,6 +936,7 @@
       "lecturer": "อ.ดร.ธนิดา ลครศรี"
    },
    {
+      "type": "GE-1",
       "code": "0041003",
       "name": "English for Humanities and Social Sciences Purposes",
       "note": "( 1EIC)",
@@ -876,6 +949,7 @@
       "lecturer": "Mr.Peter James Hoffman"
    },
    {
+      "type": "GE-1",
       "code": "0041004",
       "name": "English for Science and Technology Purposes",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031003)",
@@ -888,6 +962,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-1",
       "code": "0041004",
       "name": "English for Science and Technology Purposes",
       "note": "( +1MD)",
@@ -900,6 +975,7 @@
       "lecturer": "อ.ดร.ภูสิษฐ์ คำพิลัง"
    },
    {
+      "type": "GE-1",
       "code": "0041004",
       "name": "English for Science and Technology Purposes",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031003)",
@@ -912,6 +988,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-อ.ดร.เอกพจน์ ศรีฟ้า"
    },
    {
+      "type": "GE-1",
       "code": "0041005",
       "name": "English for Health Science Purposes",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031003)",
@@ -924,6 +1001,7 @@
       "lecturer": "ผศ.ดร.กภ. กู้เกียรติ ทุดปอ-ผศ.ดร.ภัทรินทร์ กิตติบุญญาคุณ-อ.ดร.เปมรินทร์ โพธิสาราช-อ.ดร.เอกพจน์ ศรีฟ้า"
    },
    {
+      "type": "GE-1",
       "code": "0041006",
       "name": "English for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036016)",
@@ -936,6 +1014,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์-อ.พิราวรรณ กิติภพสวัสดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041006",
       "name": "English for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036016)",
@@ -948,6 +1027,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์-อ.พิราวรรณ กิติภพสวัสดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041006",
       "name": "English for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036016)",
@@ -960,6 +1040,7 @@
       "lecturer": "ผศ.ดร.กภ. กู้เกียรติ ทุดปอ"
    },
    {
+      "type": "GE-1",
       "code": "0041006",
       "name": "English for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036016)",
@@ -972,6 +1053,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041006",
       "name": "English for Career Preparation",
       "note": "( 4EIC)",
@@ -984,6 +1066,7 @@
       "lecturer": "อ.ธานิศา ศรีสังข์-อ.พิราวรรณ กิติภพสวัสดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041007",
       "name": "English for International Media and Entertainment",
       "note": "",
@@ -996,6 +1079,7 @@
       "lecturer": "อ.พิราวรรณ กิติภพสวัสดิ์-อ.ธานิศา ศรีสังข์-ผศ.ดร.ประสงค์ สายหงษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041009",
       "name": "English for Online Entrepreneurs",
       "note": "",
@@ -1008,6 +1092,7 @@
       "lecturer": "ผศ.ดร.อรรถพล หมู่มี"
    },
    {
+      "type": "GE-1",
       "code": "0041009",
       "name": "English for Online Entrepreneurs",
       "note": "",
@@ -1020,6 +1105,7 @@
       "lecturer": "Mr.Brian Akabagy Enyiawah"
    },
    {
+      "type": "GE-1",
       "code": "0041010",
       "name": "English for World Travelers",
       "note": "( 2ITHM)",
@@ -1032,6 +1118,7 @@
       "lecturer": "อ.ดร.อัญญารัตน์ นาถธีระพงษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041011",
       "name": "English for Academic Presentation",
       "note": "( +1MD)",
@@ -1044,6 +1131,7 @@
       "lecturer": "อ.ดร.ภูสิษฐ์ คำพิลัง"
    },
    {
+      "type": "GE-1",
       "code": "0041011",
       "name": "English for Academic Presentation",
       "note": "( 2EIC (กลุ่ม 200 และ 201 เรียนรวมกัน))",
@@ -1056,6 +1144,7 @@
       "lecturer": "อ.ดร.ภูสิษฐ์ คำพิลัง"
    },
    {
+      "type": "GE-1",
       "code": "0041011",
       "name": "English for Academic Presentation",
       "note": "( 2ITHM (กลุ่ม 200 และ 201 เรียนรวมกัน))",
@@ -1068,6 +1157,7 @@
       "lecturer": "อ.ดร.ภูสิษฐ์ คำพิลัง"
    },
    {
+      "type": "GE-1",
       "code": "0041012",
       "name": "Integrated Thai for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031004)",
@@ -1080,6 +1170,7 @@
       "lecturer": "ผศ.ดร.ณัฐกฤตา นามมนตรี"
    },
    {
+      "type": "GE-1",
       "code": "0041012",
       "name": "Integrated Thai for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031004)",
@@ -1092,6 +1183,7 @@
       "lecturer": "อ.ดร.ปณิตา น้อยหลุบเลา"
    },
    {
+      "type": "GE-1",
       "code": "0041012",
       "name": "Integrated Thai for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031004)",
@@ -1104,6 +1196,7 @@
       "lecturer": "อ.ดร.ปณิตา น้อยหลุบเลา"
    },
    {
+      "type": "GE-1",
       "code": "0041012",
       "name": "Integrated Thai for Career Preparation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031004)",
@@ -1116,6 +1209,7 @@
       "lecturer": "ผศ.ดร.ณัฐกฤตา นามมนตรี"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1128,6 +1222,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1140,6 +1235,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1152,6 +1248,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1164,6 +1261,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1176,6 +1274,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041013",
       "name": "Applied Thai for Happiness and Creativity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031005)",
@@ -1188,6 +1287,7 @@
       "lecturer": "ผศ.ดร.กีรติ ธนะไชย-ผศ.ดร.ดุจฉัตร จิตบรรจง-รศ.ดร.นิตยา วรรณกิตร์-อ.ดร.รัญชนีย์ ศรีสมาน-อ.ดร.อรทัย สุทธิ-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1200,6 +1300,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1212,6 +1313,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1224,6 +1326,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1236,6 +1339,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1248,6 +1352,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1260,6 +1365,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1272,6 +1378,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1284,6 +1391,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1296,6 +1404,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1308,6 +1417,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1320,6 +1430,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1332,6 +1443,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1344,6 +1456,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1356,6 +1469,7 @@
       "lecturer": "อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1368,6 +1482,7 @@
       "lecturer": "Ms.Zhao Jing-อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1380,6 +1495,7 @@
       "lecturer": "Ms.Zhao Jing-อ.กฤตยา แพงวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036003)",
@@ -1392,6 +1508,7 @@
       "lecturer": "Ms.Zhao Jing-อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041014",
       "name": "Communicative Chinese",
       "note": "( 2IB)",
@@ -1404,6 +1521,7 @@
       "lecturer": "อ.ณฐรีย์ จันทร์ศิริสิร"
    },
    {
+      "type": "GE-1",
       "code": "0041015",
       "name": "Communicative Korean",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036001)",
@@ -1416,6 +1534,7 @@
       "lecturer": "อ.รัฐปกร ฟักอ่อน"
    },
    {
+      "type": "GE-1",
       "code": "0041015",
       "name": "Communicative Korean",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036001)",
@@ -1428,6 +1547,7 @@
       "lecturer": "อ.รัฐปกร ฟักอ่อน"
    },
    {
+      "type": "GE-1",
       "code": "0041015",
       "name": "Communicative Korean",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036001)",
@@ -1440,6 +1560,7 @@
       "lecturer": "อ.รัฐปกร ฟักอ่อน"
    },
    {
+      "type": "GE-1",
       "code": "0041017",
       "name": "Communicative Vietnamese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036015)",
@@ -1452,6 +1573,7 @@
       "lecturer": "Ms.Cao Thi Hong Van"
    },
    {
+      "type": "GE-1",
       "code": "0041017",
       "name": "Communicative Vietnamese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036015)",
@@ -1464,6 +1586,7 @@
       "lecturer": "Ms.Cao Thi Hong Van"
    },
    {
+      "type": "GE-1",
       "code": "0041017",
       "name": "Communicative Vietnamese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036015)",
@@ -1476,6 +1599,7 @@
       "lecturer": "Ms.Nguyen Thu Hoai"
    },
    {
+      "type": "GE-1",
       "code": "0041017",
       "name": "Communicative Vietnamese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036015)",
@@ -1488,6 +1612,7 @@
       "lecturer": "Ms.Nguyen Thu Hoai"
    },
    {
+      "type": "GE-1",
       "code": "0041018",
       "name": "Communicative Khmer",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036012)",
@@ -1500,6 +1625,7 @@
       "lecturer": "Ms.Un Channary"
    },
    {
+      "type": "GE-1",
       "code": "0041018",
       "name": "Communicative Khmer",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036012)",
@@ -1512,6 +1638,7 @@
       "lecturer": "Ms.Un Channary"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1524,6 +1651,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1536,6 +1664,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1548,6 +1677,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1560,6 +1690,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1572,6 +1703,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1584,6 +1716,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041019",
       "name": "Communicative Burmese",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036013)",
@@ -1596,6 +1729,7 @@
       "lecturer": "Ms.Tun Ei Zaw"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1608,6 +1742,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1620,6 +1755,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1632,6 +1768,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1644,6 +1781,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1656,6 +1794,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1668,6 +1807,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041020",
       "name": "Communicative Laos",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036014)",
@@ -1680,6 +1820,7 @@
       "lecturer": "อ.เฉลิมศักดิ์ บุตรพวง"
    },
    {
+      "type": "GE-1",
       "code": "0041021",
       "name": "Communicative French",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036004&gt;)",
@@ -1692,6 +1833,7 @@
       "lecturer": "ผศ.ดร.อำนวย สมตัว"
    },
    {
+      "type": "GE-1",
       "code": "0041021",
       "name": "Communicative French",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036004&gt;)",
@@ -1704,6 +1846,7 @@
       "lecturer": "ผศ.ดร.สิริสุดา สิริภักดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041021",
       "name": "Communicative French",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0036004&gt;)",
@@ -1716,6 +1859,7 @@
       "lecturer": "ผศ.ดร.สิริสุดา สิริภักดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1728,6 +1872,7 @@
       "lecturer": "อ.กวีพจน์ บรรลือวงศ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1740,6 +1885,7 @@
       "lecturer": "อ.กวีพจน์ บรรลือวงศ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1752,6 +1898,7 @@
       "lecturer": "อ.พชระ พฤกษะศรี"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1764,6 +1911,7 @@
       "lecturer": "อ.เลอศักดิ์ โพธิ์ทอง"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1776,6 +1924,7 @@
       "lecturer": "อ.ศิริลักษณ์ ไกยวินิจ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( +1MD)",
@@ -1788,6 +1937,7 @@
       "lecturer": "ผศ.พิมลรัตน์ อ้วนศรีเมือง-ผศ.ดร.พนิดา ทรงรัมย์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1800,6 +1950,7 @@
       "lecturer": "อ.ธวัชวงศ์ ลาวัลย์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1812,6 +1963,7 @@
       "lecturer": "อ.ธวัชวงศ์ ลาวัลย์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1824,6 +1976,7 @@
       "lecturer": "อ.พชระ พฤกษะศรี"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1836,6 +1989,7 @@
       "lecturer": "ผศ.ดร.ฤทัย นิ่มน้อย-อ.ดร.ภาธร นิลอาธิ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1848,6 +2002,7 @@
       "lecturer": "อ.ศิริลักษณ์ ไกยวินิจ-อ.ดร.ณัฐอาภา สัจจวาที"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( +1MD)",
@@ -1860,6 +2015,7 @@
       "lecturer": "ผศ.ดร.พนิดา ทรงรัมย์-ผศ.พิมลรัตน์ อ้วนศรีเมือง"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1872,6 +2028,7 @@
       "lecturer": "อ.ปวรปรัชญ์ หงสากล"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1884,6 +2041,7 @@
       "lecturer": "ผศ.ดร.แกมกาญจน์ สมประเสริฐศรี"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1896,6 +2054,7 @@
       "lecturer": "อ.ดร.ณัฐอาภา สัจจวาที"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( +1AS)",
@@ -1908,6 +2067,7 @@
       "lecturer": "ผศ.ดร.รุ่งทิพย์ เจริญศักดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( +1MD)",
@@ -1920,6 +2080,7 @@
       "lecturer": "อ.ดร.ภาธร นิลอาธิ-ผศ.ดร.ฤทัย นิ่มน้อย"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1932,6 +2093,7 @@
       "lecturer": "ผศ.ดร.สมนึก พ่วงพรพิทักษ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1944,6 +2106,7 @@
       "lecturer": "อ.กวีพจน์ บรรลือวงศ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1956,6 +2119,7 @@
       "lecturer": "ผศ.ภัทธิรา สุวรรณโค"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1968,6 +2132,7 @@
       "lecturer": "อ.ดร.นภัสกร กรวยสวัสดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1980,6 +2145,7 @@
       "lecturer": "ผศ.ภัทธิรา สุวรรณโค"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -1992,6 +2158,7 @@
       "lecturer": "ผศ.สุวิชัย พรรษา"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2004,6 +2171,7 @@
       "lecturer": "ผศ.ดร.มณีรัตน์ วงษ์ซิ้ม"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2016,6 +2184,7 @@
       "lecturer": "อ.ธวัชวงศ์ ลาวัลย์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2028,6 +2197,7 @@
       "lecturer": "อ.ธวัชวงศ์ ลาวัลย์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2040,6 +2210,7 @@
       "lecturer": "ผศ.ดร.พัฒนพงษ์ ชมภูวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2052,6 +2223,7 @@
       "lecturer": "อ.ดร.อริศาพัชร สุทธิดี"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033004)",
@@ -2064,6 +2236,7 @@
       "lecturer": "อ.ดร.พรทิวา ปะวะระ-อ.กวีพจน์ บรรลือวงศ์"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( ITMB โปรแกรมไทย)",
@@ -2076,6 +2249,7 @@
       "lecturer": "ผศ.ดร.พัฒนพงษ์ ชมภูวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( ITMB โปรแกรมไทย)",
@@ -2088,6 +2262,7 @@
       "lecturer": "ผศ.ดร.พัฒนพงษ์ ชมภูวิเศษ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( 1IB)",
@@ -2100,6 +2275,7 @@
       "lecturer": "อ.ดร.อริศาพัชร สุทธิดี"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( 1CS.T (กลุ่ม 120+กลุ่ม 200))",
@@ -2108,10 +2284,11 @@
       "sec": 120,
       "receive": 20,
       "mid": null,
-      "final": null,
+      "final": "29/10/2566 เวลา 10:30:00 ถึง 12:30:00",
       "lecturer": "อ.ดร.พรทิวา ปะวะระ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( 1EIC (กลุ่ม 120+กลุ่ม 200))",
@@ -2120,10 +2297,11 @@
       "sec": 200,
       "receive": 60,
       "mid": null,
-      "final": null,
+      "final": "29/10/2566 เวลา 10:30:00 ถึง 12:30:00",
       "lecturer": "อ.ดร.พรทิวา ปะวะระ"
    },
    {
+      "type": "GE-1",
       "code": "0041022",
       "name": "Digital Literacy and Life for Transformation",
       "note": "( 1ITHM)",
@@ -2132,10 +2310,11 @@
       "sec": 201,
       "receive": 50,
       "mid": null,
-      "final": null,
+      "final": "29/10/2566 เวลา 10:30:00 ถึง 12:30:00",
       "lecturer": "อ.ดร.พรทิวา ปะวะระ"
    },
    {
+      "type": "GE-1",
       "code": "0041023",
       "name": "Digital Citizens",
       "note": "",
@@ -2148,6 +2327,7 @@
       "lecturer": "ผศ.ดร.สุวิช ถิระโคตร-อ.เลอศักดิ์ โพธิ์ทอง"
    },
    {
+      "type": "GE-1",
       "code": "0041023",
       "name": "Digital Citizens",
       "note": "",
@@ -2160,6 +2340,7 @@
       "lecturer": "ผศ.ดร.สุวิช ถิระโคตร-อ.เลอศักดิ์ โพธิ์ทอง"
    },
    {
+      "type": "GE-1",
       "code": "0041023",
       "name": "Digital Citizens",
       "note": "",
@@ -2172,6 +2353,7 @@
       "lecturer": "อ.จิณณวัตร ทะลาสี-อ.ดร.ภาธร นิลอาธิ-ผศ.สุวิชัย พรรษา"
    },
    {
+      "type": "GE-1",
       "code": "0041023",
       "name": "Digital Citizens",
       "note": "",
@@ -2184,6 +2366,7 @@
       "lecturer": "อ.จิณณวัตร ทะลาสี-อ.ดร.ภาธร นิลอาธิ-ผศ.สุวิชัย พรรษา"
    },
    {
+      "type": "GE-1",
       "code": "0041024",
       "name": "Application Software for Digital Office",
       "note": "( +2BG)",
@@ -2196,6 +2379,7 @@
       "lecturer": "ผศ.ดร.บรรจบ วันโน"
    },
    {
+      "type": "GE-1",
       "code": "0041024",
       "name": "Application Software for Digital Office",
       "note": "",
@@ -2208,6 +2392,7 @@
       "lecturer": "อ.ดร.นภัสกร กรวยสวัสดิ์"
    },
    {
+      "type": "GE-1",
       "code": "0041025",
       "name": "Logical Thinking Based Problem Solving",
       "note": "",
@@ -2220,6 +2405,7 @@
       "lecturer": "อ.เลอศักดิ์ โพธิ์ทอง-อ.ดร.วิชญา รัตนเมธาวี"
    },
    {
+      "type": "GE-1",
       "code": "0041025",
       "name": "Logical Thinking Based Problem Solving",
       "note": "",
@@ -2232,6 +2418,7 @@
       "lecturer": "อ.ดร.อนุพงศ์ สุขประเสริฐ-อ.ดร.วิชญา รัตนเมธาวี"
    },
    {
+      "type": "GE-1",
       "code": "0041026",
       "name": "Basic Data Analytics and Presentation",
       "note": "",
@@ -2244,6 +2431,7 @@
       "lecturer": "ผศ.ดร.สุจิตตา สุระภี-ผศ.ดร.ดรุณี บุญชารี"
    },
    {
+      "type": "GE-1",
       "code": "0041026",
       "name": "Basic Data Analytics and Presentation",
       "note": "",
@@ -2256,6 +2444,7 @@
       "lecturer": "ผศ.ดร.มนตรี ทองมูล-ผศ.ดร.จตุพร เหลืองอุบล"
    },
    {
+      "type": "GE-1",
       "code": "0041027",
       "name": "Content and Digital Media",
       "note": "",
@@ -2268,6 +2457,7 @@
       "lecturer": "อ.ดร.สถิติพงษ์ เอื้ออารีมิตร"
    },
    {
+      "type": "GE-1",
       "code": "0041027",
       "name": "Content and Digital Media",
       "note": "",
@@ -2280,6 +2470,7 @@
       "lecturer": "อ.ดร.จักรกฤษณ์ แสงแก้ว"
    },
    {
+      "type": "GE-1",
       "code": "0041027",
       "name": "Content and Digital Media",
       "note": "",
@@ -2292,6 +2483,7 @@
       "lecturer": "อ.จิณณวัตร ทะลาสี"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2304,6 +2496,7 @@
       "lecturer": "อ.ดร.ปัทมาวดี ปาสาจะ-อ.ดร.นิติศักดิ์ ปาสาจะ"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( รับ 200 นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2316,6 +2509,7 @@
       "lecturer": "ผศ.ดร.อนุสรณ์ แสงประจักษ์-ผศ.ดร.บังอร แถวโนนงิ้ว"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2328,6 +2522,7 @@
       "lecturer": "ผศ.ดร.เสนีย์ เครือเนตร-ผศ.ดร.ศิริรัตน์ ดีศีลธรรม"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2340,6 +2535,7 @@
       "lecturer": "อ.วันชัย สังฆ์สุข-ผศ.ดร.รักฤดี สารธิมา"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2352,6 +2548,7 @@
       "lecturer": "ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์-ผศ.ดร.เสนีย์ เครือเนตร"
    },
    {
+      "type": "GE-1",
       "code": "0041028",
       "name": "Modern Science and Innovation for Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033002)",
@@ -2362,17 +2559,5 @@
       "mid": "3/9/2566 เวลา 8:00:00 ถึง 10:00:00",
       "final": "5/11/2566 เวลา 8:00:00 ถึง 10:00:00",
       "lecturer": "ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์-ผศ.ดร.อนุสรณ์ แสงประจักษ์"
-   },
-   {
-      "code": "0041030",
-      "name": "English for Daily Life Communication",
-      "note": "( สำหรับนิสิตต่างชาติ ยกเว้นหลักสูตรนานาชาติ)",
-      "credit": "4 (4-0-8)",
-      "time": "Th09:00-13:00 RN1-208",
-      "sec": 55,
-      "receive": 12,
-      "mid": "26/8/2566 เวลา 16:00:00 ถึง 18:00:00",
-      "final": "28/10/2566 เวลา 16:00:00 ถึง 18:00:00",
-      "lecturer": "อ.ดร.อัญญารัตน์ นาถธีระพงษ์"
    }
 ]

@@ -1,5 +1,6 @@
 [
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( +1MD)",
@@ -12,6 +13,7 @@
       "lecturer": "อ.ดร.กฤษกร อ่อนละมุล-ผศ.ดร.รัตนโชติ เทียนมงคล-อ.เมษา อุทัยรัตน์"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032003)",
@@ -24,6 +26,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว-อ.ปรีชา นวลนิ่ม-ผศ.ดร.ยุทธศิลป์ จุฑาวิจิตร"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032003)",
@@ -36,6 +39,7 @@
       "lecturer": "ว่าที่ ร.ต. ผศ.ดร.อวิรุทธ์ โททำ-ผศ.ดร.พีระ พันลูกท้าว-อ.ดร.สันติ สิงห์สุ"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032003)",
@@ -48,6 +52,7 @@
       "lecturer": "อ.ดร.กฤษกร อ่อนละมุล-ผศ.ดร.รัตนโชติ เทียนมงคล-อ.เมษา อุทัยรัตน์"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032003)",
@@ -60,6 +65,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว-อ.ปรีชา นวลนิ่ม-ผศ.ดร.ยุทธศิลป์ จุฑาวิจิตร"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( +2MD)",
@@ -72,6 +78,7 @@
       "lecturer": "ว่าที่ ร.ต. ผศ.ดร.อวิรุทธ์ โททำ-ผศ.ดร.พีระ พันลูกท้าว-อ.ดร.สันติ สิงห์สุ"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( ITMB โปรแกรมไทย)",
@@ -84,6 +91,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว"
    },
    {
+      "type": "GE-5",
       "code": "0045001",
       "name": "Art and Life",
       "note": "( ITMB โปรแกรมไทย)",
@@ -96,6 +104,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -108,6 +117,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว-อ.คฑาวุธ มาป้อง"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -120,6 +130,7 @@
       "lecturer": "อ.ดร.กฤษกร อ่อนละมุล-ผศ.ดร.ยุทธศิลป์ จุฑาวิจิตร"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -132,6 +143,7 @@
       "lecturer": "ว่าที่ ร.ต. ผศ.ดร.อวิรุทธ์ โททำ-อ.ดร.นฤบดินทร์ สาลีพันธ์"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -144,6 +156,7 @@
       "lecturer": "ผศ.อรรคพงศ์ ภูลายยาว-ผศ.ดร.ยุทธศิลป์ จุฑาวิจิตร"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -156,6 +169,7 @@
       "lecturer": "อ.ดร.กฤษกร อ่อนละมุล-อ.ดร.นฤบดินทร์ สาลีพันธ์"
    },
    {
+      "type": "GE-5",
       "code": "0045002",
       "name": "Music and Isan Performing Arts",
       "note": "",
@@ -168,6 +182,7 @@
       "lecturer": "ว่าที่ ร.ต. ผศ.ดร.อวิรุทธ์ โททำ-อ.คฑาวุธ มาป้อง"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -180,6 +195,7 @@
       "lecturer": "อ.ดร.อิสราภรณ์ สมบุญวัฒนกุล"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -192,6 +208,7 @@
       "lecturer": "รศ.ดร.ชนิดาพร ตุ้มปี่สุวรรณ-ผศ.ดร.ศักดิ์บวร ตุ้มปี่สุวรรณ"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -204,6 +221,7 @@
       "lecturer": "อ.ดร.ปัทมาวดี ปาสาจะ-ผศ.ดร.พรทิพย์ อติชาติ"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -216,6 +234,7 @@
       "lecturer": "ผศ.ดร.กมลหทัย แวงวาสิต-ผศ.ดร.ภาสกร บุญชาลี"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( +1MD)",
@@ -228,6 +247,7 @@
       "lecturer": "ผศ.ดร.อนุสรณ์ แสงประจักษ์-ผศ.ดร.จุฑาพร แสงประจักษ์"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( รับ 180 นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -240,6 +260,7 @@
       "lecturer": "ผศ.ดร.บังอร แถวโนนงิ้ว-รศ.ดร.บังอร กองอิ้ม"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -252,6 +273,7 @@
       "lecturer": "ผศ.ดร.อภิพงษ์ พุฒคำ-ดร.ยุวดี ไชยเชษฐ์"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -264,6 +286,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-ผศ.ดร.เสนีย์ เครือเนตร"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -276,6 +299,7 @@
       "lecturer": "ดร.ยุวดี ไชยเชษฐ์-ผศ.ดร.อภิพงษ์ พุฒคำ"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -288,6 +312,7 @@
       "lecturer": "ผศ.กนกวรรณ ศุกรนันทน์-ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -300,6 +325,7 @@
       "lecturer": "ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล-ผศ.กนกวรรณ ศุกรนันทน์"
    },
    {
+      "type": "GE-5",
       "code": "0045003",
       "name": "Wisdom for Life Quality",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0033003)",
@@ -312,6 +338,7 @@
       "lecturer": "ผศ.ดร.เสนีย์ เครือเนตร-ผศ.ดร.ธีรพร กทิศาสตร์"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -324,6 +351,7 @@
       "lecturer": "อ.ดร.หนึ่งฤทัย จันทรคามิ"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -336,6 +364,7 @@
       "lecturer": "อ.ดร.หนึ่งฤทัย จันทรคามิ"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -348,6 +377,7 @@
       "lecturer": "ผศ.ดร.สมัย วรรณอุดร"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -360,6 +390,7 @@
       "lecturer": "ผศ.ดร.สมัย วรรณอุดร"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -372,6 +403,7 @@
       "lecturer": "ผศ.ดร.วลีรัตน์ มันทุราช"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -384,6 +416,7 @@
       "lecturer": "ผศ.ดร.วลีรัตน์ มันทุราช"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -396,6 +429,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -408,6 +442,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -420,6 +455,7 @@
       "lecturer": "อ.วันทนีย์ นาชัยเงิน"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( +1AS)",
@@ -432,6 +468,7 @@
       "lecturer": "อ.ดร.หนึ่งฤทัย จันทรคามิ"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -444,6 +481,7 @@
       "lecturer": "อ.ชัยวัฒน์ เสาทอง"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -456,6 +494,7 @@
       "lecturer": "อ.ดร.ณภัทรสรา ดาวษาวะ"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -468,6 +507,7 @@
       "lecturer": "Ms.Somphavanh Keoboutta"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -480,6 +520,7 @@
       "lecturer": "Ms.Somphavanh Keoboutta"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -492,6 +533,7 @@
       "lecturer": "ผศ.ดร.วลีรัตน์ มันทุราช"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -504,6 +546,7 @@
       "lecturer": "ผศ.ดร.สมัย วรรณอุดร"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -516,6 +559,7 @@
       "lecturer": "อ.วันทนีย์ นาชัยเงิน"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -528,6 +572,7 @@
       "lecturer": "Ms.Somphavanh Keoboutta"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0031006)",
@@ -540,6 +585,7 @@
       "lecturer": "อ.ดร.ณภัทรสรา ดาวษาวะ"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( 1IB (กลุ่ม 90 และ 200 เรียนรวมกัน))",
@@ -552,6 +598,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045004",
       "name": "Introduction to ASEAN",
       "note": "( 1EIC (กลุ่ม 90 และ 200 เรียนรวมกัน))",
@@ -564,6 +611,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( +1MD)",
@@ -576,6 +624,7 @@
       "lecturer": "อ.กฤษฎา สิริพัฒนโชติกุล-อ.ดร.ฐิติศักดิ์ เวชกามา"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032001)",
@@ -588,6 +637,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช-อ.ดร.สุขิริณณ์ อามาตย์บัณฑิต"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032001)",
@@ -600,6 +650,7 @@
       "lecturer": "ผศ.ดร.วิไลลักษณ์ อุ่นจิตร-อ.ดร.ฐิติศักดิ์ เวชกามา"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032001)",
@@ -612,6 +663,7 @@
       "lecturer": "อ.ดร.ฐิติศักดิ์ เวชกามา-อ.กฤษฎา สิริพัฒนโชติกุล"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0032001)",
@@ -624,6 +676,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช-อ.ดร.สุขิริณณ์ อามาตย์บัณฑิต"
    },
    {
+      "type": "GE-5",
       "code": "0045005",
       "name": "Humans and Sociocultural Diversity",
       "note": "( 1ITHM)",
@@ -636,6 +689,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045006",
       "name": "Plural Culture of the Mekong Region",
       "note": "",
@@ -648,6 +702,7 @@
       "lecturer": "อ.ดร.อภิราดี จันทร์แสง"
    },
    {
+      "type": "GE-5",
       "code": "0045006",
       "name": "Plural Culture of the Mekong Region",
       "note": "",
@@ -660,6 +715,7 @@
       "lecturer": "ผศ.ดร.พีระ พันลูกท้าว"
    },
    {
+      "type": "GE-5",
       "code": "0045006",
       "name": "Plural Culture of the Mekong Region",
       "note": "",
@@ -672,6 +728,7 @@
       "lecturer": "ผศ.ดร.พีระ พันลูกท้าว"
    },
    {
+      "type": "GE-5",
       "code": "0045006",
       "name": "Plural Culture of the Mekong Region",
       "note": "( ITMB โปรแกรมไทย)",
@@ -684,6 +741,7 @@
       "lecturer": "ผศ.ดร.พีระ พันลูกท้าว"
    },
    {
+      "type": "GE-5",
       "code": "0045006",
       "name": "Plural Culture of the Mekong Region",
       "note": "( ITMB โปรแกรมไทย)",
@@ -696,6 +754,7 @@
       "lecturer": "ผศ.ดร.พีระ พันลูกท้าว"
    },
    {
+      "type": "GE-5",
       "code": "0045007",
       "name": "Globalized Isan",
       "note": "",
@@ -708,6 +767,7 @@
       "lecturer": "ผศ.ดร.นิลุบล ไพเราะ-ผศ.ดร.วนิดา พรมหล้า-อ.ดร.ชินวัตร เชื้อสระคู"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -720,6 +780,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -732,6 +793,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -744,6 +806,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -756,6 +819,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -768,6 +832,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045008",
       "name": "Cultural Management for Value Creation",
       "note": "",
@@ -780,6 +845,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.ทม เกตุวงศา-อ.ดร.ยุทธชัย เกราะแก้ว"
    },
    {
+      "type": "GE-5",
       "code": "0045009",
       "name": "Cultural Tourism",
       "note": "",
@@ -792,6 +858,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-อ.สายไหม ไชยศิรินทร์"
    },
    {
+      "type": "GE-5",
       "code": "0045009",
       "name": "Cultural Tourism",
       "note": "",
@@ -804,6 +871,7 @@
       "lecturer": "ผศ.ดร.ลินจง โพชารี-ผศ.ดร.ปณรัตน์ ผาดี"
    },
    {
+      "type": "GE-5",
       "code": "0045009",
       "name": "Cultural Tourism",
       "note": "",
@@ -816,6 +884,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-อ.สายไหม ไชยศิรินทร์"
    },
    {
+      "type": "GE-5",
       "code": "0045009",
       "name": "Cultural Tourism",
       "note": "",
@@ -828,6 +897,7 @@
       "lecturer": "ผศ.ดร.ลินจง โพชารี-ผศ.ดร.ปณรัตน์ ผาดี"
    },
    {
+      "type": "GE-5",
       "code": "0045009",
       "name": "Cultural Tourism",
       "note": "",
@@ -840,6 +910,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-ผศ.ดร.ลินจง โพชารี-อ.ปรีชา นวลนิ่ม"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -852,6 +923,7 @@
       "lecturer": "รศ.ดร.บังอร กองอิ้ม-อ.ดร.นิจฉรา ทูลธรรม"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -864,6 +936,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -876,6 +949,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -888,6 +962,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.บุษบา ธระเสนา"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -900,6 +975,7 @@
       "lecturer": "ผศ.ดร.สิริภัค สุระพร-ผศ.ดร.ชัยวุฒิ บัวเนี่ยว"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -912,6 +988,7 @@
       "lecturer": "รศ.ดร.บังอร กองอิ้ม-อ.ดร.นิจฉรา ทูลธรรม"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -924,6 +1001,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -936,6 +1014,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -948,6 +1027,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.บุษบา ธระเสนา"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -960,6 +1040,7 @@
       "lecturer": "ผศ.ดร.สิริภัค สุระพร-ผศ.ดร.ชัยวุฒิ บัวเนี่ยว"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -972,6 +1053,7 @@
       "lecturer": "รศ.ดร.บังอร กองอิ้ม-อ.ดร.นิจฉรา ทูลธรรม"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -984,6 +1066,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -996,6 +1079,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -1008,6 +1092,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.บุษบา ธระเสนา"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -1020,6 +1105,7 @@
       "lecturer": "ผศ.ดร.สิริภัค สุระพร-ผศ.ดร.ชัยวุฒิ บัวเนี่ยว"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -1032,6 +1118,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์-ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -1044,6 +1131,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "",
@@ -1056,6 +1144,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.บุษบา ธระเสนา"
    },
    {
+      "type": "GE-5",
       "code": "0045010",
       "name": "Local Wisdom Based Food and Beverages",
       "note": "( 2ITHM)",
@@ -1068,6 +1157,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์-ผศ.ดร.ธีรพร กทิศาสตร์"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1080,6 +1170,7 @@
       "lecturer": "อ.ปรีชา นวลนิ่ม"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1092,6 +1183,7 @@
       "lecturer": "รศ.ดร.ชัยสิทธิ์ สิทธิเวช"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1104,6 +1196,7 @@
       "lecturer": "ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1116,6 +1209,7 @@
       "lecturer": "อ.ปรีชา นวลนิ่ม"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1128,6 +1222,7 @@
       "lecturer": "ผศ.ดร.มัณฑนา นครเรียบ"
    },
    {
+      "type": "GE-5",
       "code": "0045011",
       "name": "Wisdom and Isan Textile Innovation",
       "note": "",
@@ -1140,6 +1235,7 @@
       "lecturer": "รศ.ดร.ชัยสิทธิ์ สิทธิเวช"
    },
    {
+      "type": "GE-5",
       "code": "0045012",
       "name": "Siam Amulets",
       "note": "",
@@ -1152,6 +1248,7 @@
       "lecturer": "อ.ดร.เทอดศักดิ์ พรหมอารักษ์-ผศ.ประสิทธิ์ สว่างศรี-รศ.ดร.สงครามชัยย์ ลีทองดีศกุล"
    },
    {
+      "type": "GE-5",
       "code": "0045012",
       "name": "Siam Amulets",
       "note": "",
@@ -1164,6 +1261,7 @@
       "lecturer": "อ.ดร.เทอดศักดิ์ พรหมอารักษ์-ผศ.ประสิทธิ์ สว่างศรี-รศ.ดร.สงครามชัยย์ ลีทองดีศกุล"
    },
    {
+      "type": "GE-5",
       "code": "0045013",
       "name": "Eastern Beliefs for Living",
       "note": "",
@@ -1176,6 +1274,7 @@
       "lecturer": "ผศ.ชัยนันท์ พรหมเพ็ญ"
    },
    {
+      "type": "GE-5",
       "code": "0045013",
       "name": "Eastern Beliefs for Living",
       "note": "",
@@ -1188,6 +1287,7 @@
       "lecturer": "ผศ.ชัยนันท์ พรหมเพ็ญ"
    },
    {
+      "type": "GE-5",
       "code": "0045014",
       "name": "Management of Local Landscape",
       "note": "",
@@ -1198,17 +1298,5 @@
       "mid": "3/9/2566 เวลา 10:30:00 ถึง 12:30:00",
       "final": "5/11/2566 เวลา 10:30:00 ถึง 12:30:00",
       "lecturer": "อ.นันทพร อยู่สะอาด-อ.ดร.สันติ สิงห์สุ"
-   },
-   {
-      "code": "0045015",
-      "name": "Thai Language for Communication in Sociocultural, Environmental, and Tourism Contexts",
-      "note": "( สำหรับนิสิตต่างชาติ ยกเว้นหลักสูตรนานาชาติ)",
-      "credit": "6 (6-0-12)",
-      "time": "Fr15:00-18:00 RN1-208 & Th15:00-18:00 RN1-208",
-      "sec": 55,
-      "receive": 20,
-      "mid": null,
-      "final": null,
-      "lecturer": "ผศ.ดร.ดุจฉัตร จิตบรรจง-อ.ดร.มุจลินทร์ ลักษณะวงษ์"
    }
 ]

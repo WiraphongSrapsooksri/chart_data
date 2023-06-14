@@ -1,5 +1,6 @@
 [
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -12,6 +13,7 @@
       "lecturer": "อ.ดร.พัดชา หิรัญวัฒนกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -24,6 +26,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -36,6 +39,7 @@
       "lecturer": "อ.สุไวย์รินทร์ ศรีชัย-อ.ดร.พัดชา หิรัญวัฒนกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -48,6 +52,7 @@
       "lecturer": "ผศ.ดร.จารุวรรณ วิโรจน์"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -60,6 +65,7 @@
       "lecturer": "อ.ดร.พัดชา หิรัญวัฒนกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -72,6 +78,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -84,6 +91,7 @@
       "lecturer": "อ.สุไวย์รินทร์ ศรีชัย-ผศ.ดร.จารุวรรณ วิโรจน์"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -96,6 +104,7 @@
       "lecturer": "อ.ดร.ภิญญาพัชญ์ ดุงโคกกรวด"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -108,6 +117,7 @@
       "lecturer": "อ.ดร.พัดชา หิรัญวัฒนกุล-อ.สุไวย์รินทร์ ศรีชัย"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -120,6 +130,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต"
    },
    {
+      "type": "GE-2",
       "code": "0042001",
       "name": "Global Health and Disease Prevention",
       "note": "",
@@ -132,6 +143,7 @@
       "lecturer": "อ.สุไวย์รินทร์ ศรีชัย-ผศ.ดร.จารุวรรณ วิโรจน์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -144,6 +156,7 @@
       "lecturer": "อ.ดร.สุรชาติ สิทธิปกรณ์-ผศ.อรัญญา ทองก้อน"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "( +1MD)",
@@ -156,6 +169,7 @@
       "lecturer": "ผศ.วัลลภา ลีลานันทกุล-อ.เกียรติศักดิ์ ชัยพรม"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -168,6 +182,7 @@
       "lecturer": "ผศ.สุรดา จันดีกระยอม-ผศ.ดร.อัจฉรา ชัยชาญ"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -180,6 +195,7 @@
       "lecturer": "อ.ดร.จงกลณี ธนาไสย์-อ.สุไวย์รินทร์ ศรีชัย"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -192,6 +208,7 @@
       "lecturer": "อ.ดร.สุรศักดิ์ เทียบฤทธิ์-ผศ.ดร.ประชุมพร เลาห์ประเสริฐ"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -204,6 +221,7 @@
       "lecturer": "ผศ.อรัญญา ทองก้อน-ผศ.สุรดา จันดีกระยอม-ผศ.ดร.อัจฉรา ชัยชาญ"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -216,6 +234,7 @@
       "lecturer": "ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์-ผศ.ดร.จารุวรรณ วิโรจน์-อ.ดร.กัลยา หาญพิชาญชัย"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -228,6 +247,7 @@
       "lecturer": "ผศ.วัลลภา ลีลานันทกุล-อ.ดร.สุรศักดิ์ เทียบฤทธิ์-อ.เกียรติศักดิ์ ชัยพรม"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -240,6 +260,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -252,6 +273,7 @@
       "lecturer": "ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -264,6 +286,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -276,6 +299,7 @@
       "lecturer": "อ.ดร.พัดชา หิรัญวัฒนกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -288,6 +312,7 @@
       "lecturer": "ผศ.ดร.จารุวรรณ วิโรจน์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "",
@@ -300,6 +325,7 @@
       "lecturer": "อ.ดร.กัลยา หาญพิชาญชัย"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "( ITMB โปรแกรมไทย)",
@@ -312,6 +338,7 @@
       "lecturer": "อ.ดร.เทอดศักดิ์ พรหมอารักษ์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "( ITMB โปรแกรมไทย)",
@@ -324,6 +351,7 @@
       "lecturer": "อ.ดร.เทอดศักดิ์ พรหมอารักษ์"
    },
    {
+      "type": "GE-2",
       "code": "0042002",
       "name": "Health Awareness",
       "note": "( 2EIC)",
@@ -336,6 +364,7 @@
       "lecturer": "ผศ.ดร.ธีรพร กทิศาสตร์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -348,6 +377,7 @@
       "lecturer": "ผศ.ดร.ดรุณี พ่วงพรพิทักษ์-อ.ดร.วัลยา เนาวรัตน์วัฒนา"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( +1MD)",
@@ -360,6 +390,7 @@
       "lecturer": "ผศ.วัลลภา ลีลานันทกุล-อ.ดร.สุรชาติ สิทธิปกรณ์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -372,6 +403,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต-รศ.ดร.วัลยา สุทธิขำ"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -384,6 +416,7 @@
       "lecturer": "ผศ.ดร.นงเยาว์ มีเทียน"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -396,6 +429,7 @@
       "lecturer": "รศ.ดร.วรพจน์ พรหมสัตยพรต-อ.ดร.วัลยา เนาวรัตน์วัฒนา"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( +1MD)",
@@ -408,6 +442,7 @@
       "lecturer": "อ.ดร.วัลยา เนาวรัตน์วัฒนา-ผศ.ดร.ดรุณี พ่วงพรพิทักษ์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -420,6 +455,7 @@
       "lecturer": "ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -432,6 +468,7 @@
       "lecturer": "อ.ดร.สุรชาติ สิทธิปกรณ์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -444,6 +481,7 @@
       "lecturer": "ผศ.ขวัญใจ ศุกรนันทน์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( +1MD)",
@@ -456,6 +494,7 @@
       "lecturer": "อ.ดร.จงกลณี ธนาไสย์"
    },
    {
+      "type": "GE-2",
       "code": "0042003",
       "name": "Holistic Health Care and Promotion",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -468,6 +507,7 @@
       "lecturer": "อ.ดร.พัดชา หิรัญวัฒนกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( +1MD)",
@@ -480,6 +520,7 @@
       "lecturer": "อ.เกียรติศักดิ์ ชัยพรม-ผศ.ดร.นงเยาว์ มีเทียน"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -492,6 +533,7 @@
       "lecturer": "ผศ.ดร.ดรุณี พ่วงพรพิทักษ์-อ.ดร.วัลยา เนาวรัตน์วัฒนา"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -504,6 +546,7 @@
       "lecturer": "อ.ดร.จงกลณี ธนาไสย์-ผศ.วัลลภา ลีลานันทกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -516,6 +559,7 @@
       "lecturer": "อ.ดร.สุรศักดิ์ เทียบฤทธิ์-ผศ.ขวัญใจ ศุกรนันทน์"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -528,6 +572,7 @@
       "lecturer": "ผศ.สุรดา จันดีกระยอม-ผศ.ดร.อัจฉรา ชัยชาญ"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -540,6 +585,7 @@
       "lecturer": "ผศ.บุญญภัสร์ ภูมิภู-ผศ.อรัญญา ทองก้อน"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -552,6 +598,7 @@
       "lecturer": "ผศ.ดร.นงเยาว์ มีเทียน-อ.เกียรติศักดิ์ ชัยพรม"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -564,6 +611,7 @@
       "lecturer": "ผศ.ดร.ดรุณี พ่วงพรพิทักษ์-อ.ดร.วัลยา เนาวรัตน์วัฒนา"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -576,6 +624,7 @@
       "lecturer": "ผศ.ดร.อัจฉรา ชัยชาญ-ผศ.สุรดา จันดีกระยอม"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -588,6 +637,7 @@
       "lecturer": "ผศ.บุญญภัสร์ ภูมิภู-ผศ.อรัญญา ทองก้อน"
    },
    {
+      "type": "GE-2",
       "code": "0042004",
       "name": "Health Care for Different Age Groups",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034001)",
@@ -600,6 +650,7 @@
       "lecturer": "อ.ดร.จงกลณี ธนาไสย์-ผศ.วัลลภา ลีลานันทกุล"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -612,6 +663,7 @@
       "lecturer": "ผศ.ดร.กภ. กู้เกียรติ ทุดปอ-อ.วัฒนพงษ์ คงสืบเสาะ"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -624,6 +676,7 @@
       "lecturer": "ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์-อ.อนุรักษ์ปภพ มีตน"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -636,6 +689,7 @@
       "lecturer": "อ.ดร.นิจฉรา ทูลธรรม-อ.ชิระวุฒิ อัจฉริยชีวิน"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -648,6 +702,7 @@
       "lecturer": "ผศ.ดร.ชัยวุฒิ บัวเนี่ยว-อ.ปิยเชษฐ์ ตะสิงห์"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -660,6 +715,7 @@
       "lecturer": "ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์-อ.ชิระวุฒิ อัจฉริยชีวิน"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -672,6 +728,7 @@
       "lecturer": "ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -684,6 +741,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.วัฒนพงษ์ คงสืบเสาะ"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034002 หรือ 0034004)",
@@ -696,6 +754,7 @@
       "lecturer": "ผศ.ดร.มนัชญา สังข์ศรีอินทร์-อ.ปิยเชษฐ์ ตะสิงห์"
    },
    {
+      "type": "GE-2",
       "code": "0042005",
       "name": " Food and Exercise for Health and Beauty",
       "note": "( 1IB)",
@@ -708,6 +767,7 @@
       "lecturer": "ผศ.ดร.กภ. กู้เกียรติ ทุดปอ-ผศ.ดร.ญดา ธาดาณัฐภักดิ์"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -720,6 +780,7 @@
       "lecturer": "อ.ดร.วนรัตน์ อนุสรณ์เสงี่ยม"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( +1AS)",
@@ -732,6 +793,7 @@
       "lecturer": "อ.ดร.วนรัตน์ อนุสรณ์เสงี่ยม"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -744,6 +806,7 @@
       "lecturer": "ผศ.ดร.สกุลรัตน์ รัตนาเกียรติ"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -756,6 +819,7 @@
       "lecturer": "ผศ.ดร.สกุลรัตน์ รัตนาเกียรติ"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -768,6 +832,7 @@
       "lecturer": "ผศ.ดร.รจเรศ นิธิไพจิตร"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -780,6 +845,7 @@
       "lecturer": "ผศ.ดร.รจเรศ นิธิไพจิตร"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -792,6 +858,7 @@
       "lecturer": "ผศ.ดร.อารีรัตน์ ลีละธนาฤกษ์"
    },
    {
+      "type": "GE-2",
       "code": "0042006",
       "name": "Consumption of Pharmaceutical and Health Products",
       "note": "( &lt;นิสิตรหัส 58-62 รายวิชานี้ใช้เรียนแทนวิชา 0034003&gt;)",
@@ -804,6 +871,7 @@
       "lecturer": "ผศ.ดร.อารีรัตน์ ลีละธนาฤกษ์"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -816,6 +884,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-ผศ.ดร.ฐิติวรดา พลเยี่ยม"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -828,6 +897,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช-ผศ.ดร.วิไลลักษณ์ อุ่นจิตร"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -840,6 +910,7 @@
       "lecturer": "รศ.ดร.ภมรพรรณ์ ยุระยาตร์-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -852,6 +923,7 @@
       "lecturer": "ผศ.ดร.กัญญารัตน์ โคจร-อ.ดร.กันยารัตน์ สอนสุภาพ"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -864,6 +936,7 @@
       "lecturer": "ผศ.ดร.พรทิพย์ อติชาติ-ผศ.ดร.สุภลักษณ์ อรรถรังสรรค์"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -876,6 +949,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-ผศ.ดร.ฐิติวรดา พลเยี่ยม"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -888,6 +962,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช-ผศ.ดร.วิไลลักษณ์ อุ่นจิตร"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "( +1MD)",
@@ -900,6 +975,7 @@
       "lecturer": "รศ.ดร.ภมรพรรณ์ ยุระยาตร์-อ.ดร.อารีย์รัตน์ โนนสุวรรณ"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -912,6 +988,7 @@
       "lecturer": "ผศ.ดร.กัญญารัตน์ โคจร-อ.ดร.กันยารัตน์ สอนสุภาพ"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -924,6 +1001,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-ผศ.ดร.ฐิติวรดา พลเยี่ยม"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -936,6 +1014,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช-ผศ.ดร.วิไลลักษณ์ อุ่นจิตร"
    },
    {
+      "type": "GE-2",
       "code": "0042008",
       "name": "Life Skills",
       "note": "",
@@ -948,6 +1027,7 @@
       "lecturer": "ผศ.ดร.สุภลักษณ์ อรรถรังสรรค์"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -960,6 +1040,7 @@
       "lecturer": "อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด-ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -972,6 +1053,7 @@
       "lecturer": "ผศ.ดร.นันทนา ลาภวิเศษชัย-อ.ดร.เยาวภา นียากร"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -984,6 +1066,7 @@
       "lecturer": "อ.ดร.ศรินทรีย์ อุดชาชน-อ.ดร.แคทลียา ชาปะวัง"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -996,6 +1079,7 @@
       "lecturer": "อ.ดร.เยาวภา นียากร"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -1008,6 +1092,7 @@
       "lecturer": "อ.บวรพจน์ ชมภูนุช"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "",
@@ -1020,6 +1105,7 @@
       "lecturer": "อ.ดร.ธนิดา ลครศรี"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "( 2IB  (กลุ่ม 90 และ 200 เรียนรวมกัน))",
@@ -1032,6 +1118,7 @@
       "lecturer": "ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์-อ.ดร.ศรินทรีย์ อุดชาชน"
    },
    {
+      "type": "GE-2",
       "code": "0042009",
       "name": "Personality for Social Relations",
       "note": "( 2EIC  (กลุ่ม 90 และ 200 เรียนรวมกัน))",
@@ -1044,6 +1131,7 @@
       "lecturer": "ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์-อ.ดร.ศรินทรีย์ อุดชาชน"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1056,6 +1144,7 @@
       "lecturer": "ผศ.ดร.ประชุมพร เลาห์ประเสริฐ-รศ.ดร.คมศร เลาห์ประเสริฐ"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1068,6 +1157,7 @@
       "lecturer": "ผศ.ดร.ประชุมพร เลาห์ประเสริฐ-รศ.ดร.คมศร เลาห์ประเสริฐ"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1080,6 +1170,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.อุฤทธิ์ เจริญอินทร์"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1092,6 +1183,7 @@
       "lecturer": "รศ.ดร.ธนา ยีรัมย์"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1104,6 +1196,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.อุฤทธิ์ เจริญอินทร์"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1116,6 +1209,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์-ผศ.ดร.อุฤทธิ์ เจริญอินทร์"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1128,6 +1222,7 @@
       "lecturer": "รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์"
    },
    {
+      "type": "GE-2",
       "code": "0042010",
       "name": "Disaster Survival",
       "note": "",
@@ -1140,6 +1235,7 @@
       "lecturer": "ผศ.ดร.อุฤทธิ์ เจริญอินทร์"
    },
    {
+      "type": "GE-2",
       "code": "0042011",
       "name": "Environmental - friendly Lifestyle",
       "note": "",
@@ -1152,6 +1248,7 @@
       "lecturer": "ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล-ผศ.กนกวรรณ ศุกรนันทน์-ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์"
    },
    {
+      "type": "GE-2",
       "code": "0042011",
       "name": "Environmental - friendly Lifestyle",
       "note": "",
@@ -1164,6 +1261,7 @@
       "lecturer": "ผศ.ดร.อภิพงษ์ พุฒคำ-ผศ.ธรพร บุศย์น้ำเพชร"
    },
    {
+      "type": "GE-2",
       "code": "0042011",
       "name": "Environmental - friendly Lifestyle",
       "note": "",
@@ -1176,6 +1274,7 @@
       "lecturer": "ดร.ยุวดี ไชยเชษฐ์-ผศ.ดร.วิศิษฎ์ ทองคำ"
    },
    {
+      "type": "GE-2",
       "code": "0042011",
       "name": "Environmental - friendly Lifestyle",
       "note": "",
@@ -1188,6 +1287,7 @@
       "lecturer": "ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์-ผศ.กนกวรรณ ศุกรนันทน์-ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล"
    },
    {
+      "type": "GE-2",
       "code": "0042011",
       "name": "Environmental - friendly Lifestyle",
       "note": "",
@@ -1200,6 +1300,7 @@
       "lecturer": "ดร.ยุวดี ไชยเชษฐ์-ผศ.ดร.วิศิษฎ์ ทองคำ"
    },
    {
+      "type": "GE-2",
       "code": "0042012",
       "name": "Home Arrangements for Life Quality Enhancement",
       "note": "( รับ 200 คน)",
@@ -1212,6 +1313,7 @@
       "lecturer": "ผศ.สุรีพรรณ์ สุพรรณสมบูรณ์-ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.สันทนา ภิรมย์เกียรติ"
    },
    {
+      "type": "GE-2",
       "code": "0042012",
       "name": "Home Arrangements for Life Quality Enhancement",
       "note": "( รับ 200 คน)",
@@ -1224,6 +1326,7 @@
       "lecturer": "ผศ.สุรีพรรณ์ สุพรรณสมบูรณ์-ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-อ.สันทนา ภิรมย์เกียรติ"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( รับ 200)",
@@ -1236,6 +1339,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.ประภัสสร บุษหมั่น-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( รับ 200)",
@@ -1248,6 +1352,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.ประภัสสร บุษหมั่น-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( รับ 200)",
@@ -1260,6 +1365,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.ประภัสสร บุษหมั่น-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( รับ 200)",
@@ -1272,6 +1378,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.ประภัสสร บุษหมั่น-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( รับ 100)",
@@ -1284,6 +1391,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช-ผศ.คะนอง พิลุน"
    },
    {
+      "type": "GE-2",
       "code": "0042013",
       "name": "Cannabis Science",
       "note": "( +2MD)",
@@ -1296,6 +1404,7 @@
       "lecturer": "ผศ.ดร.เกรียงศักดิ์ บุญเที่ยง-ผศ.ดร.เบ็ญจวรรณ ชุติชูเดช-ผศ.คะนอง พิลุน"
    },
    {
+      "type": "GE-2",
       "code": "0042014",
       "name": "Pets and Life",
       "note": "( +1AS)",
@@ -1308,6 +1417,7 @@
       "lecturer": "ผศ.ดร.วาสนา ศิริแสน-ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์"
    },
    {
+      "type": "GE-2",
       "code": "0042014",
       "name": "Pets and Life",
       "note": "",
@@ -1320,6 +1430,7 @@
       "lecturer": "ผศ.ดร.วาสนา ศิริแสน-ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์"
    },
    {
+      "type": "GE-2",
       "code": "0042014",
       "name": "Pets and Life",
       "note": "",
@@ -1332,6 +1443,7 @@
       "lecturer": "ผศ.ดร.วาสนา ศิริแสน-ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์"
    },
    {
+      "type": "GE-2",
       "code": "0042014",
       "name": "Pets and Life",
       "note": "",
@@ -1344,6 +1456,7 @@
       "lecturer": "ผศ.ดร.วาสนา ศิริแสน-ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์"
    },
    {
+      "type": "GE-2",
       "code": "0042014",
       "name": "Pets and Life",
       "note": "",
