@@ -985,7 +985,7 @@
    },
    {
       "code": "0041007",
-      "name": "English for International Media and Entertainment<font color=\"#407060\"><li>อ.พิราวรรณ กิติภพสวัสดิ์</li><li>อ.ธานิศา ศรีสังข์</li><li>ผศ.ดร.ประสงค์ สายหงษ์</li></font>",
+      "name": "English for International Media and Entertainment",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th08:00-10:00 RN1-507",
@@ -997,7 +997,7 @@
    },
    {
       "code": "0041009",
-      "name": "English for Online Entrepreneurs<font color=\"#407060\"><li>ผศ.ดร.อรรถพล หมู่มี</li></font>",
+      "name": "English for Online Entrepreneurs",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th13:00-15:00 RN1-707",
@@ -1009,7 +1009,7 @@
    },
    {
       "code": "0041009",
-      "name": "English for Online Entrepreneurs<font color=\"#407060\"><li>Mr.Brian Akabagy Enyiawah</li></font>",
+      "name": "English for Online Entrepreneurs",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu10:00-12:00 RN1-801",
@@ -2137,7 +2137,7 @@
    },
    {
       "code": "0041023",
-      "name": "Digital Citizens<font color=\"#407060\"><li>ผศ.ดร.สุวิช ถิระโคตร</li><li>อ.เลอศักดิ์ โพธิ์ทอง</li></font>",
+      "name": "Digital Citizens",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr08:00-10:00 RN1-805",
@@ -2149,7 +2149,7 @@
    },
    {
       "code": "0041023",
-      "name": "Digital Citizens<font color=\"#407060\"><li>ผศ.ดร.สุวิช ถิระโคตร</li><li>อ.เลอศักดิ์ โพธิ์ทอง</li></font>",
+      "name": "Digital Citizens",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr10:00-12:00 RN1-805",
@@ -2161,7 +2161,7 @@
    },
    {
       "code": "0041023",
-      "name": "Digital Citizens<font color=\"#407060\"><li>อ.จิณณวัตร ทะลาสี</li><li>อ.ดร.ภาธร นิลอาธิ</li><li>ผศ.สุวิชัย พรรษา</li></font>",
+      "name": "Digital Citizens",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We13:00-15:00 EN106",
@@ -2173,7 +2173,7 @@
    },
    {
       "code": "0041023",
-      "name": "Digital Citizens<font color=\"#407060\"><li>อ.จิณณวัตร ทะลาสี</li><li>อ.ดร.ภาธร นิลอาธิ</li><li>ผศ.สุวิชัย พรรษา</li></font>",
+      "name": "Digital Citizens",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 EN306",
@@ -2197,7 +2197,7 @@
    },
    {
       "code": "0041024",
-      "name": "Application Software for Digital Office<font color=\"#407060\"><li>อ.ดร.นภัสกร กรวยสวัสดิ์</li></font>",
+      "name": "Application Software for Digital Office",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr08:00-10:00 PH2-205",
@@ -2209,7 +2209,7 @@
    },
    {
       "code": "0041025",
-      "name": "Logical Thinking Based Problem Solving<font color=\"#407060\"><li>อ.เลอศักดิ์ โพธิ์ทอง</li><li>อ.ดร.วิชญา รัตนเมธาวี</li></font>",
+      "name": "Logical Thinking Based Problem Solving",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 RN1-610",
@@ -2221,7 +2221,7 @@
    },
    {
       "code": "0041025",
-      "name": "Logical Thinking Based Problem Solving<font color=\"#407060\"><li>อ.ดร.อนุพงศ์ สุขประเสริฐ</li><li>อ.ดร.วิชญา รัตนเมธาวี</li></font>",
+      "name": "Logical Thinking Based Problem Solving",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 RN1-604",
@@ -2233,7 +2233,7 @@
    },
    {
       "code": "0041026",
-      "name": "Basic Data Analytics and Presentation<font color=\"#407060\"><li>ผศ.ดร.สุจิตตา สุระภี</li><li>ผศ.ดร.ดรุณี บุญชารี</li></font>",
+      "name": "Basic Data Analytics and Presentation",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th08:00-10:00 PH2-205",
@@ -2245,7 +2245,7 @@
    },
    {
       "code": "0041026",
-      "name": "Basic Data Analytics and Presentation<font color=\"#407060\"><li>ผศ.ดร.มนตรี ทองมูล</li><li>ผศ.ดร.จตุพร เหลืองอุบล</li></font>",
+      "name": "Basic Data Analytics and Presentation",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 SC2-107",
@@ -2257,7 +2257,7 @@
    },
    {
       "code": "0041027",
-      "name": "Content and Digital Media<font color=\"#407060\"><li>อ.ดร.สถิติพงษ์ เอื้ออารีมิตร</li></font>",
+      "name": "Content and Digital Media",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th08:00-10:00 EN106",
@@ -2269,7 +2269,7 @@
    },
    {
       "code": "0041027",
-      "name": "Content and Digital Media<font color=\"#407060\"><li>อ.ดร.จักรกฤษณ์ แสงแก้ว</li></font>",
+      "name": "Content and Digital Media",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr15:00-17:00 SC2-106",
@@ -2281,7 +2281,7 @@
    },
    {
       "code": "0041027",
-      "name": "Content and Digital Media<font color=\"#407060\"><li>อ.จิณณวัตร ทะลาสี</li></font>",
+      "name": "Content and Digital Media",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We15:00-17:00 SC2-109",
