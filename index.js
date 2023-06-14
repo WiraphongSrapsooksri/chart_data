@@ -44,13 +44,11 @@ app.get('Filter/day/:id', (req, res) => {
       res.status(404).send("Group not found");
    }
 })
-// "time": "Fr08:00-10:00 IT-507 & We13:00-15:00 IT-507"
 
 app.post('/Filter', (req, res) => {
    const searchData = req.body;
-   // console.log(searchData.code);
-   const data = require("./Group/dataALL.json")
-   const searchResults = data.filter(item => {
+
+   const searchResults = dataALL.filter(item => {
       return searchData.type === item.type &&
          (searchData.code.includes(item.code) || searchData.code.length == 0) &&
          (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
@@ -58,7 +56,7 @@ app.post('/Filter', (req, res) => {
             item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
          )
    });
-   // console.log(searchResults);
+
    res.send(searchResults);
 });
 
