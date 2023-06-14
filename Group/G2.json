@@ -1,7 +1,7 @@
 [
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.ดร.พัดชา หิรัญวัฒนกุล</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 PH2-202",
@@ -13,7 +13,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>รศ.ดร.วรพจน์ พรหมสัตยพรต</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 SC2-103",
@@ -25,7 +25,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.สุไวย์รินทร์ ศรีชัย</li><li>อ.ดร.พัดชา หิรัญวัฒนกุล</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 PH2-202",
@@ -37,7 +37,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>ผศ.ดร.จารุวรรณ วิโรจน์</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 PH2-202",
@@ -49,7 +49,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.ดร.พัดชา หิรัญวัฒนกุล</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 PH2-202",
@@ -61,7 +61,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>รศ.ดร.วรพจน์ พรหมสัตยพรต</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 PH2-203",
@@ -73,7 +73,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.สุไวย์รินทร์ ศรีชัย</li><li>ผศ.ดร.จารุวรรณ วิโรจน์</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 PH2-203",
@@ -85,7 +85,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.ดร.ภิญญาพัชญ์ ดุงโคกกรวด</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 PH2-203",
@@ -97,7 +97,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.ดร.พัดชา หิรัญวัฒนกุล</li><li>อ.สุไวย์รินทร์ ศรีชัย</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 PH2-203",
@@ -109,7 +109,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>รศ.ดร.วรพจน์ พรหมสัตยพรต</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 PH2-204",
@@ -121,7 +121,7 @@
    },
    {
       "code": "0042001",
-      "name": "Global Health and Disease Prevention<font color=\"#407060\"><li>อ.สุไวย์รินทร์ ศรีชัย</li><li>ผศ.ดร.จารุวรรณ วิโรจน์</li></font>",
+      "name": "Global Health and Disease Prevention",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 PH2-204",
@@ -133,7 +133,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>อ.ดร.สุรชาติ สิทธิปกรณ์</li><li>ผศ.อรัญญา ทองก้อน</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 PH2-210",
@@ -157,7 +157,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.สุรดา จันดีกระยอม</li><li>ผศ.ดร.อัจฉรา ชัยชาญ</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 PH2-205",
@@ -169,7 +169,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>อ.ดร.จงกลณี ธนาไสย์</li><li>อ.สุไวย์รินทร์ ศรีชัย</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 PH2-201",
@@ -181,7 +181,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>อ.ดร.สุรศักดิ์ เทียบฤทธิ์</li><li>ผศ.ดร.ประชุมพร เลาห์ประเสริฐ</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 PH2-201",
@@ -193,7 +193,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.อรัญญา ทองก้อน</li><li>ผศ.สุรดา จันดีกระยอม</li><li>ผศ.ดร.อัจฉรา ชัยชาญ</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 PH2-205",
@@ -205,7 +205,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์</li><li>ผศ.ดร.จารุวรรณ วิโรจน์</li><li>อ.ดร.กัลยา หาญพิชาญชัย</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 PH2-205",
@@ -217,7 +217,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.วัลลภา ลีลานันทกุล</li><li>อ.ดร.สุรศักดิ์ เทียบฤทธิ์</li><li>อ.เกียรติศักดิ์ ชัยพรม</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 PH2-205",
@@ -229,7 +229,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.ดร.ธีรพร กทิศาสตร์</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We15:00-17:00 SC2-106",
@@ -241,7 +241,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.ดร.ณภัสวรรณ ธนาพงษ์อนันท์</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th15:00-17:00 EN301",
@@ -253,7 +253,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>รศ.ดร.วรพจน์ พรหมสัตยพรต</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr15:00-17:00 EN306",
@@ -265,7 +265,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>อ.ดร.พัดชา หิรัญวัฒนกุล</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 EN301",
@@ -277,7 +277,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>ผศ.ดร.จารุวรรณ วิโรจน์</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 EN306",
@@ -289,7 +289,7 @@
    },
    {
       "code": "0042002",
-      "name": "Health Awareness<font color=\"#407060\"><li>อ.ดร.กัลยา หาญพิชาญชัย</li></font>",
+      "name": "Health Awareness",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 EN306",
@@ -805,7 +805,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด</li><li>ผศ.ดร.ฐิติวรดา พลเยี่ยม</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th13:00-15:00 RN1-710",
@@ -817,7 +817,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.บวรพจน์ ชมภูนุช</li><li>ผศ.ดร.วิไลลักษณ์ อุ่นจิตร</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We13:00-15:00 RN1-610",
@@ -829,7 +829,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>รศ.ดร.ภมรพรรณ์ ยุระยาตร์</li><li>อ.ดร.อารีย์รัตน์ โนนสุวรรณ</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr15:00-17:00 RN1-710",
@@ -841,7 +841,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>ผศ.ดร.กัญญารัตน์ โคจร</li><li>อ.ดร.กันยารัตน์ สอนสุภาพ</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 RN1-310",
@@ -853,7 +853,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>ผศ.ดร.พรทิพย์ อติชาติ</li><li>ผศ.ดร.สุภลักษณ์ อรรถรังสรรค์</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We15:00-17:00 SC2-103",
@@ -865,7 +865,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด</li><li>ผศ.ดร.ฐิติวรดา พลเยี่ยม</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr15:00-17:00 RN1-805",
@@ -877,7 +877,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.บวรพจน์ ชมภูนุช</li><li>ผศ.ดร.วิไลลักษณ์ อุ่นจิตร</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We15:00-17:00 RN1-601",
@@ -901,7 +901,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>ผศ.ดร.กัญญารัตน์ โคจร</li><li>อ.ดร.กันยารัตน์ สอนสุภาพ</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We13:00-15:00 RN1-507",
@@ -913,7 +913,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด</li><li>ผศ.ดร.ฐิติวรดา พลเยี่ยม</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 RN1-507",
@@ -925,7 +925,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>อ.บวรพจน์ ชมภูนุช</li><li>ผศ.ดร.วิไลลักษณ์ อุ่นจิตร</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr08:00-10:00 RN1-507",
@@ -937,7 +937,7 @@
    },
    {
       "code": "0042008",
-      "name": "Life Skills<font color=\"#407060\"><li>ผศ.ดร.สุภลักษณ์ อรรถรังสรรค์</li></font>",
+      "name": "Life Skills",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We13:00-15:00 SC2-104",
@@ -949,7 +949,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>อ.ดร.วันทกาญจน์ สีมาโรฤทธิ์ การ์ด</li><li>ผศ.ดร.ปริยาภรณ์ อิศรานุวัฒน์</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 SC2-108",
@@ -961,7 +961,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>ผศ.ดร.นันทนา ลาภวิเศษชัย</li><li>อ.ดร.เยาวภา นียากร</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 RN1-410",
@@ -973,7 +973,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>อ.ดร.ศรินทรีย์ อุดชาชน</li><li>อ.ดร.แคทลียา ชาปะวัง</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 RN1-501",
@@ -985,7 +985,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>อ.ดร.เยาวภา นียากร</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th17:00-19:00 RN1-501",
@@ -997,7 +997,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>อ.บวรพจน์ ชมภูนุช</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu17:00-19:00 RN1-501",
@@ -1009,7 +1009,7 @@
    },
    {
       "code": "0042009",
-      "name": "Personality for Social Relations<font color=\"#407060\"><li>อ.ดร.ธนิดา ลครศรี</li></font>",
+      "name": "Personality for Social Relations",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 RN1-410",
@@ -1022,7 +1022,7 @@
    {
       "code": "0042009",
       "name": "Personality for Social Relations",
-      "note": "( 2IB (กลุ่ม 90 และ 200 เรียนรวมกัน))",
+      "note": "( 2IB  (กลุ่ม 90 และ 200 เรียนรวมกัน))",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 SC2-101",
       "sec": 90,
@@ -1034,7 +1034,7 @@
    {
       "code": "0042009",
       "name": "Personality for Social Relations",
-      "note": "( 2EIC (กลุ่ม 90 และ 200 เรียนรวมกัน))",
+      "note": "( 2EIC  (กลุ่ม 90 และ 200 เรียนรวมกัน))",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 SC2-101",
       "sec": 200,
@@ -1045,7 +1045,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>ผศ.ดร.ประชุมพร เลาห์ประเสริฐ</li><li>รศ.ดร.คมศร เลาห์ประเสริฐ</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr17:00-19:00 PH2-210",
@@ -1057,7 +1057,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>ผศ.ดร.ประชุมพร เลาห์ประเสริฐ</li><li>รศ.ดร.คมศร เลาห์ประเสริฐ</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 PH2-205",
@@ -1069,7 +1069,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์</li><li>ผศ.ดร.อุฤทธิ์ เจริญอินทร์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr08:00-10:00 PH2-210",
@@ -1081,7 +1081,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>รศ.ดร.ธนา ยีรัมย์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr10:00-12:00 RN1-609",
@@ -1093,7 +1093,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์</li><li>ผศ.ดร.อุฤทธิ์ เจริญอินทร์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We10:00-12:00 SC1-100",
@@ -1105,7 +1105,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์</li><li>ผศ.ดร.อุฤทธิ์ เจริญอินทร์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Tu08:00-10:00 SC1-100",
@@ -1117,7 +1117,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>รศ.ดร.ปิยมาศ นานอก โสภาลดาวัลย์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th10:00-12:00 EN301",
@@ -1129,7 +1129,7 @@
    },
    {
       "code": "0042010",
-      "name": "Disaster Survival<font color=\"#407060\"><li>ผศ.ดร.อุฤทธิ์ เจริญอินทร์</li></font>",
+      "name": "Disaster Survival",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr13:00-15:00 EN301",
@@ -1141,7 +1141,7 @@
    },
    {
       "code": "0042011",
-      "name": "Environmental - friendly Lifestyle<font color=\"#407060\"><li>ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล</li><li>ผศ.กนกวรรณ ศุกรนันทน์</li><li>ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์</li></font>",
+      "name": "Environmental - friendly Lifestyle",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Fr08:00-10:00 PH2-201",
@@ -1153,7 +1153,7 @@
    },
    {
       "code": "0042011",
-      "name": "Environmental - friendly Lifestyle<font color=\"#407060\"><li>ผศ.ดร.อภิพงษ์ พุฒคำ</li><li>ผศ.ธรพร บุศย์น้ำเพชร</li></font>",
+      "name": "Environmental - friendly Lifestyle",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th15:00-17:00 SC2-107",
@@ -1165,7 +1165,7 @@
    },
    {
       "code": "0042011",
-      "name": "Environmental - friendly Lifestyle<font color=\"#407060\"><li>ดร.ยุวดี ไชยเชษฐ์</li><li>ผศ.ดร.วิศิษฎ์ ทองคำ</li></font>",
+      "name": "Environmental - friendly Lifestyle",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Mo17:00-19:00 SC2-102",
@@ -1177,7 +1177,7 @@
    },
    {
       "code": "0042011",
-      "name": "Environmental - friendly Lifestyle<font color=\"#407060\"><li>ผศ.ดร.ปานใจ สื่อประเสริฐสิทธิ์</li><li>ผศ.กนกวรรณ ศุกรนันทน์</li><li>ผศ.ดร.นิพนธ์ ตันไพบูลย์กุล</li></font>",
+      "name": "Environmental - friendly Lifestyle",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th13:00-15:00 SC2-109",
@@ -1189,7 +1189,7 @@
    },
    {
       "code": "0042011",
-      "name": "Environmental - friendly Lifestyle<font color=\"#407060\"><li>ดร.ยุวดี ไชยเชษฐ์</li><li>ผศ.ดร.วิศิษฎ์ ทองคำ</li></font>",
+      "name": "Environmental - friendly Lifestyle",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We17:00-19:00 EN301",
@@ -1309,7 +1309,7 @@
    },
    {
       "code": "0042014",
-      "name": "Pets and Life<font color=\"#407060\"><li>ผศ.ดร.วาสนา ศิริแสน</li><li>ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์</li></font>",
+      "name": "Pets and Life",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "We15:00-17:00 SC2-107",
@@ -1321,7 +1321,7 @@
    },
    {
       "code": "0042014",
-      "name": "Pets and Life<font color=\"#407060\"><li>ผศ.ดร.วาสนา ศิริแสน</li><li>ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์</li></font>",
+      "name": "Pets and Life",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th13:00-15:00 SC2-102",
@@ -1333,7 +1333,7 @@
    },
    {
       "code": "0042014",
-      "name": "Pets and Life<font color=\"#407060\"><li>ผศ.ดร.วาสนา ศิริแสน</li><li>ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์</li></font>",
+      "name": "Pets and Life",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th08:00-10:00 SC2-106",
@@ -1345,7 +1345,7 @@
    },
    {
       "code": "0042014",
-      "name": "Pets and Life<font color=\"#407060\"><li>ผศ.ดร.วาสนา ศิริแสน</li><li>ผศ.น.สพ.ดร.ณฐพล ภูมิพันธุ์</li></font>",
+      "name": "Pets and Life",
       "note": "",
       "credit": "2 (2-0-4)",
       "time": "Th10:00-12:00 SC2-106",
