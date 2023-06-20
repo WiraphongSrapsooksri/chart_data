@@ -119,11 +119,12 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          hour12: false
       }).replace(',', '');
       console.log('requested done on ' + formattedDate)
+      
       // saving timestamp to log file
-      const fs = require('fs');
-      fs.appendFile('log.txt', formattedDate, function (err) {
-         if (err) throw err;
-      }
-      );
+      // const fs = require('fs');
+      // fs.appendFile('log.txt', formattedDate, function (err) {
+      //    if (err) throw err;
+      // }
+      // );
    });
 });
