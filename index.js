@@ -97,7 +97,8 @@ cron.schedule(`*/${sec} * * * * *`, () => {
       }
       // saving timestamp to log file
       const fs = require('fs');
-      fs.appendFile('log.txt', new Date().toISOString() + '\n', function (err) {
+      const stamp = new Date().toISOString() + "\n";
+      fs.appendFile('log.txt', stamp, function (err) {
          if (err) throw err;
       }
       );
