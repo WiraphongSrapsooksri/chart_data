@@ -20,6 +20,11 @@ def getData(group: str):
 
     response = requests.post('https://reg.msu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
+    # check status
+    if response.status_code != 200:
+        print(f"Error: {response.status_code}")
+        return
+
     # BeautifulSoup
     resp = BeautifulSoup(response.content, 'html.parser')
 
