@@ -95,11 +95,11 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          console.error(`exec error: ${error}`);
          return;
       }
+      // saving timestamp to log file
+      const fs = require('fs');
+      fs.appendFile('log.txt', new Date().toISOString() + '\n', function (err) {
+         if (err) throw err;
+      }
+      );
    });
-   // saving timestamp to log file
-   const fs = require('fs');
-   fs.appendFile('log.txt', new Date().toISOString() + '\n', function (err) {
-      if (err) throw err;
-   }
-   );
 });
