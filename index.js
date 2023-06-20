@@ -35,7 +35,7 @@ app.get('/Group/:id', (req, res) => {
    }
 });
 
-app.get('/seccount/:type', (req, res) => {
+app.post('/seccount/:type', (req, res) => {
    const type = req.params.type;
    try {
       const filteredData = dataALL.filter(item => item.type === type);
@@ -62,7 +62,7 @@ app.get('/seccount/:type', (req, res) => {
 });
 
 app.post('/updated', (req, res) => {
-   res.send(cache_updated);
+   res.send(JSON.stringify(cache_updated));
 });
 
 app.post('/Filter', (req, res) => {
