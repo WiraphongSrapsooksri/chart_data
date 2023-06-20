@@ -101,7 +101,8 @@ const { exec } = require('child_process');
 const path = require('path');
 
 // Run the Python file every 10 seconds
-sec = 30
+const args = require('minimist')(process.argv.slice(2));
+const sec = args.t || 10;
 cron.schedule(`*/${sec} * * * * *`, () => {
    exec(`cd ${path.dirname(__filename)} && python ./main.py`, (error, stdout, stderr) => {
       if (error) {
