@@ -61,9 +61,11 @@ def getData(group: str):
         # Extract the <font> elements within the outer <font> element
         font_elements = re.findall(r'<font[^>]*>.*?</font>', lecturer_raw)
         # Extract the text content of the <li> elements
-        li_text = [re.sub(r'<.*?>', '', li) for font in font_elements for li in re.findall(r'<li>.*?</li>', font)]
+        li_text = [li for font in font_elements for li in re.findall(r'<li>.*?</li>', font)]
+        # Remove the <li> tags from the extracted text
+        li_text = [re.findall(r'<li>(.*?)<\/li>', nameLecture)[0].replace('<li>', ' / ') for nameLecture in li_text]
         # Join the extracted text with a delimiter
-        lecturer = '-'.join(li_text)
+        lecturer = ' / '.join(li_text)
 
         # Find the first <font> element
         first_font = re.search(r'<font[^>]*>(.*?)</font>', lecturer_raw)

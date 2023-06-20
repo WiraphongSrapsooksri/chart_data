@@ -100,9 +100,9 @@ const cron = require('node-cron');
 const { exec } = require('child_process');
 const path = require('path');
 
-// Run the Python file every 10 seconds
+// Run the Python file
 const args = require('minimist')(process.argv.slice(2));
-const sec = args.t || 10;
+const sec = args.t || 30;
 cron.schedule(`*/${sec} * * * * *`, () => {
    exec(`cd ${path.dirname(__filename)} && python ./main.py`, (error, stdout, stderr) => {
       if (error) {
@@ -121,10 +121,10 @@ cron.schedule(`*/${sec} * * * * *`, () => {
       }).replace(',', '');
       console.log('requested done on ' + formattedDate)
       // saving timestamp to log file
-      const fs = require('fs');
-      fs.appendFile('log.txt', formattedDate, function (err) {
-         if (err) throw err;
-      }
-      );
+      // const fs = require('fs');
+      // fs.appendFile('log.txt', formattedDate, function (err) {
+      //    if (err) throw err;
+      // }
+      // );
    });
 });
