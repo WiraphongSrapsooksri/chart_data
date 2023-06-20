@@ -108,12 +108,20 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          console.error(`exec error: ${error}`);
          return;
       }
-      cache_updated = new Date().toISOString()
-      console.log('requested done on ' + new Date().toISOString())
+      cache_updated = new Date()
+      const formattedDate = cache_updated.toLocaleDateString('en-US', {
+         year: '2-digit',
+         month: '2-digit',
+         day: '2-digit',
+         hour: '2-digit',
+         minute: '2-digit',
+         second: '2-digit',
+         hour12: false
+      }).replace(',', '');
+      console.log('requested done on ' + formattedDate)
       // saving timestamp to log file
       const fs = require('fs');
-      const stamp = new Date().toISOString() + "\n";
-      fs.appendFile('log.txt', stamp, function (err) {
+      fs.appendFile('log.txt', formattedDate, function (err) {
          if (err) throw err;
       }
       );
