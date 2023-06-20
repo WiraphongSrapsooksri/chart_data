@@ -2,7 +2,6 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
-const dataALL = require("./Group/dataALL.json")
 var cors = require('cors')
 app.use(express.json());
 app.use(cors())
@@ -35,8 +34,9 @@ app.get('/Group/:id', (req, res) => {
 
 app.get('/seccount/:type', (req, res) => {
    const type = req.params.type;
+
    try {
-      const filteredData = dataALL.filter(item => item.type === type);
+      const filteredData = require("./Group/" + type + ".json")
       const result = filteredData.map(item => ({
          code: item.code,
          name: item.name

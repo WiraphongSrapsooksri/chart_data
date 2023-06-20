@@ -128,7 +128,7 @@ def getData(group: str):
         data.append(course)
 
     # Save the JSON data to the file
-    with open(f"Group/G{group}.json", "w", encoding="utf-8") as file:
+    with open(f"Group/GE-{group}.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 
