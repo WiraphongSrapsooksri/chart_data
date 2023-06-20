@@ -10,7 +10,7 @@ app.use(cors())
 var cache_updated = "none"
 const fs = require('fs');
 
-
+var ready = false;
 
 app.get("/", (req, res) => {
    res.send("DATA REG");
@@ -91,6 +91,7 @@ app.post('/Filter', (req, res) => {
 
 app.listen(port, () => {
    console.log("Starting node.js at port " + port);
+   ready = true;
 });
 
 // Run a schedule
@@ -103,28 +104,49 @@ const path = require('path');
 // Run the Python file every 10 seconds
 const args = require('minimist')(process.argv.slice(2));
 const sec = args.t || 10;
-cron.schedule(`*/${sec} * * * * *`, () => {
-   exec(`cd ${path.dirname(__filename)} && python ./main.py`, (error, stdout, stderr) => {
-      if (error) {
-         console.error(`exec error: ${error}`);
-         return;
+
+var seconds = sec;
+var count = 0;
+
+const scheduledFunction = () => {
+   if(!ready) return;
+
+   if(cache_updated === "none" && seconds === sec){
+      seconds = 0;
+   }
+
+   if(seconds > 0) {
+      process.stdout.write(`\x1b[K\x1b[90mRequested done on\x1b[0m ${cache_updated} \x1b[90m(${count}) \x1b[33m| \x1b[37m${seconds}\x1b[33m's left...\r`);
+      seconds--;
+      return
+   } else if(seconds == 0) {
+      seconds = -1;
+
+      if(cache_updated === "none"){
+         process.stdout.write(`\x1b[K\x1b[90mFirst Running \x1b[33m| \x1b[32mUpdating...\r`);
+      } else {
+         process.stdout.write(`\x1b[K\x1b[90mRequested done on\x1b[0m ${cache_updated} \x1b[33m| \x1b[90m${count} \x1b[33m| \x1b[32mUpdating...\r`);
       }
-      cache_updated = new Date()
-      const formattedDate = cache_updated.toLocaleDateString('th-TH', {
-         year: '2-digit',
-         month: '2-digit',
-         day: '2-digit',
-         hour: '2-digit',
-         minute: '2-digit',
-         second: '2-digit',
-         hour12: false
-      }).replace(',', '');
-      console.log('requested done on ' + formattedDate)
-      // saving timestamp to log file
-      const fs = require('fs');
-      fs.appendFile('log.txt', formattedDate, function (err) {
-         if (err) throw err;
-      }
-      );
-   });
-});
+
+      exec(`cd ${path.dirname(__filename)} && python ./main.py`, (error, stdout, stderr) => {
+         if (error) {
+            console.error(`exec error: ${error}`);
+            return;
+         }
+         cache_updated = new Date().toLocaleDateString('th-TH', {
+            year: '2-digit',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit',
+            hour12: false
+         }).replace(',', '');
+
+         seconds = sec;
+         count++;
+      });
+   }
+}
+
+cron.schedule(`*/1 * * * * *`, scheduledFunction);
