@@ -108,8 +108,7 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          console.error(`exec error: ${error}`);
          return;
       }
-      cache_updated = new Date()
-      const formattedDate = cache_updated.toLocaleDateString('en-US', {
+      cache_updated = new Date().toLocaleDateString('en-US', {
          year: '2-digit',
          month: '2-digit',
          day: '2-digit',
@@ -118,7 +117,7 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          second: '2-digit',
          hour12: false
       }).replace(',', '');
-      console.log('requested done on ' + formattedDate)
+      console.log('requested done on ' + cache_updated)
       
       // saving timestamp to log file
       // const fs = require('fs');
