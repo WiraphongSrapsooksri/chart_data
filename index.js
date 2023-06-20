@@ -1,12 +1,13 @@
 
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3030;
+const dataALL = require("./Group/dataALL.json")
 var cors = require('cors')
 app.use(express.json());
 app.use(cors())
 
-
+var cache_updated = "none"
 
 
 app.get("/", (req, res) => {
@@ -34,9 +35,8 @@ app.get('/Group/:id', (req, res) => {
 
 app.get('/seccount/:type', (req, res) => {
    const type = req.params.type;
-
    try {
-      const filteredData = require("./Group/" + type + ".json")
+      const filteredData = dataALL.filter(item => item.type === type);
       const result = filteredData.map(item => ({
          code: item.code,
          name: item.name
@@ -57,6 +57,10 @@ app.get('/seccount/:type', (req, res) => {
    } catch (error) {
       res.status(404).send("Not found");
    }
+});
+
+app.post('/updated', (req, res) => {
+   res.send(cache_updated);
 });
 
 app.post('/Filter', (req, res) => {
@@ -95,6 +99,8 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          console.error(`exec error: ${error}`);
          return;
       }
+      cache_updated = new Date().toISOString()
+      console.log('requested done on ' + new Date().toISOString())
       // saving timestamp to log file
       const fs = require('fs');
       const stamp = new Date().toISOString() + "\n";
