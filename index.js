@@ -101,7 +101,7 @@ const cron = require('node-cron');
 const { exec } = require('child_process');
 const path = require('path');
 
-// Run the Python file every 10 seconds
+// Run the Python file
 const args = require('minimist')(process.argv.slice(2));
 const sec = args.t || 10;
 
