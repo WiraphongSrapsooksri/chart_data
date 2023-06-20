@@ -109,7 +109,7 @@ cron.schedule(`*/${sec} * * * * *`, () => {
          return;
       }
       cache_updated = new Date()
-      const formattedDate = cache_updated.toLocaleDateString('en-US', {
+      const formattedDate = cache_updated.toLocaleDateString('th-TH', {
          year: '2-digit',
          month: '2-digit',
          day: '2-digit',
