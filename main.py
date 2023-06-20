@@ -43,7 +43,7 @@ def getData(group: str):
         credit = cells[3].text.strip()
         time = cells[4].text.strip()
         sec = int(cells[5].text.strip())
-        remain = int(cells[7].text.strip())
+        remain = int(cells[8].text.strip())
         receive = int(cells[6].text.strip())
         # mid = cells[7].text.strip()
         # final = cells[8].text.strip()
