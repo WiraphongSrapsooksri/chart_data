@@ -8,6 +8,8 @@ app.use(express.json());
 app.use(cors())
 
 var cache_updated = "none"
+const fs = require('fs');
+
 
 
 app.get("/", (req, res) => {
@@ -66,15 +68,22 @@ app.post('/updated', (req, res) => {
 app.post('/Filter', (req, res) => {
    try {
       const searchData = req.body;
-      const searchResults = dataALL.filter(item => {
-         return searchData.type === item.type ||
-            (searchData.code.includes(item.code) || searchData.code.length == 0) &&
-            (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
-            (
-               item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
-            )
+      fs.readFile('Group/dataALL.json', 'utf8', (err, data) => {
+         if (err) {
+            console.error(err);
+            return res.status(404).send("Not found");
+         }
+         const dataALL = JSON.parse(data);
+         const searchResults = dataALL.filter(item => {
+            return searchData.type === item.type ||
+               (searchData.code.includes(item.code) || searchData.code.length == 0) &&
+               (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
+               (
+                  item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
+               )
+         });
+         res.send(searchResults);
       });
-      res.send(searchResults);
    } catch {
       res.status(404).send("Not found");
    }

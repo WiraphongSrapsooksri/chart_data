@@ -134,3 +134,14 @@ def getData(group: str):
 
 for i in range(1, 6):
     getData(i)
+
+# combine all json to dataALL
+data = []
+for i in range(1, 6):
+    with open(f"Group/GE-{i}.json", "r", encoding="utf-8") as file:
+        temp = json.load(file)
+        for j in temp:
+            data.append(j)
+
+    with open("Group/dataALL.json", "w", encoding="utf-8") as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
