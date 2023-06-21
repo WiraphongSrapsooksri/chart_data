@@ -2,7 +2,7 @@
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 3030;
-const dataALL = require("./Group/dataALL.json")
+const dataALL = require("./Group/MSU/dataALL.json")
 var cors = require('cors')
 app.use(express.json());
 app.use(cors())
@@ -23,7 +23,7 @@ app.get('/datamajor', (req, res) => {
 app.get('/Group/:id', (req, res) => {
    const groupId = req.params.id;
    try {
-      const data = require("./Group/G" + groupId + ".json")
+      const data = require("./Group/MSU/G" + groupId + ".json")
 
       if (data.length > 0) {
          res.json(data);
@@ -68,7 +68,7 @@ app.post('/updated', (req, res) => {
 app.post('/Filter', (req, res) => {
    try {
       const searchData = req.body;
-      fs.readFile('Group/dataALL.json', 'utf8', (err, data) => {
+      fs.readFile('Group/MSU/dataALL.json', 'utf8', (err, data) => {
          if (err) {
             console.error(err);
             return res.status(404).send("Not found");
