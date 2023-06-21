@@ -2,21 +2,28 @@ from bs4 import BeautifulSoup
 import json
 import re
 import requests
-def getData(group: str):
-    headers = {
-            'content-type': 'application/x-www-form-urlencoded',
-            'accept-language': 'th-TH,th;q=0.6',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
-        }
 
-    f_data = {
-            'facultyid': 'all',
-            'maxrow': '1000',
-            'Acadyear': '2566',
-            'semester': '1',
-            'coursecode': f'004{group}*',
-            'page': '0'
-        }
+global data
+data: list = []
+def getData(f_data=None):
+    headers = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'accept-language': 'en-US,en;q=0.7',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    }
+
+    if not f_data:
+        f_data = {
+                'facultyid': 'all',
+                'maxrow': '1000',
+                'Acadyear': '2566',
+                'semester': '1',
+                'coursecode': f'004*',
+            }
+    
+    else:
+        pass
 
     response = requests.post('https://reg.msu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
@@ -36,7 +43,7 @@ def getData(group: str):
     rows = soup.find_all('tr', class_='normalDetail')[1:-1]
 
     # Initialize an empty list to store the JSON data
-    data = []
+    # data = []
 
     # Iterate over each row and extract the required information
     for row in rows:
@@ -66,6 +73,10 @@ def getData(group: str):
         li_text = [re.findall(r'<li>(.*?)<\/li>', nameLecture)[0].replace('<li>', ' / ') for nameLecture in li_text]
         # Join the extracted text with a delimiter
         lecturer = ' / '.join(li_text)
+
+        # lecturers = lecturer.split(" / ")
+        # print(code, lecturers)
+        
 
         # Find the first <font> element
         first_font = re.search(r'<font[^>]*>(.*?)</font>', lecturer_raw)
@@ -134,24 +145,54 @@ def getData(group: str):
         }
         data.append(course)
 
+    # get nextPages
+    try:
+        if soup.find_all('tr', class_='normalDetail')[-1].select_one('td:nth-child(2) > a')['href']:
+            # get page
+            next_f_data = soup.find_all('tr', class_='normalDetail')[-1].select_one('td:nth-child(2) > a')['href'].split('class_info_1.asp?')[1]
+            print(next_f_data)
+            return getData(next_f_data)
+    except Exception:
+        print("End")
+        pass
+
     # sort list by remain most
     data.sort(key=lambda x: x['remain'], reverse=True)
 
     # Save the JSON data to the file
-    with open(f"Group/GE-{group}.json", "w", encoding="utf-8") as file:
+    with open(f"Group/dataALL.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
 
-for i in range(1, 6):
-    getData(i)
+# split dataALL by Type
+def splitData():
+    with open(f"Group/dataALL.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
 
-# combine all json to dataALL
-data = []
-for i in range(1, 6):
-    with open(f"Group/GE-{i}.json", "r", encoding="utf-8") as file:
-        temp = json.load(file)
-        for j in temp:
-            data.append(j)
+    # Create a dictionary for each course and append it to the data list
+    GE1 = []
+    GE2 = []
+    GE3 = []
+    GE4 = []
+    GE5 = []
+    
+    for course in data:
+        if course['type'] == 'GE-1':
+            GE1.append(course)
+        elif course['type'] == 'GE-2':
+            GE2.append(course)
+        elif course['type'] == 'GE-3':
+            GE3.append(course)
+        elif course['type'] == 'GE-4':
+            GE4.append(course)
+        elif course['type'] == 'GE-5':
+            GE5.append(course)
+        
+    # Save the JSON data to the file
+    for i in range(1,6):
+        with open(f"Group/GE-{i}.json", "w", encoding="utf-8") as file:
+            json.dump(eval(f"GE{i}"), file, indent=4, ensure_ascii=False)
 
-    with open("Group/dataALL.json", "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=4, ensure_ascii=False)
+
+getData()
+splitData()
