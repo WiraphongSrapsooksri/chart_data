@@ -134,6 +134,9 @@ def getData(group: str):
         }
         data.append(course)
 
+    # sort list by remain most
+    data.sort(key=lambda x: x['remain'], reverse=True)
+
     # Save the JSON data to the file
     with open(f"Group/GE-{group}.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
