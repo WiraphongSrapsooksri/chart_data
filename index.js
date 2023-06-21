@@ -82,6 +82,12 @@ app.post('/Filter', (req, res) => {
                   item.time.split(' & ').filter((fitem) => fitem.substring(2, 4) === searchData.time).length > 0 || searchData.time === "total"
                )
          });
+
+         // Sort the search results by remaining most
+         searchResults.sort((a, b) => {
+            return b.remaining - a.remaining;
+         });
+
          res.send(searchResults);
       });
    } catch {
@@ -149,4 +155,4 @@ const scheduledFunction = () => {
    }
 }
 
-cron.schedule(`*/1 * * * * *`, scheduledFunction);
+cron.schedule(`*/30* * * * *`, scheduledFunction);

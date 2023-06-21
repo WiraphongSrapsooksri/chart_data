@@ -15,20 +15,6 @@
     },
     {
         "type": "GE-4",
-        "code": "0044005",
-        "name": "Laws for Employment",
-        "note": "( +1MD)",
-        "credit": "2 (2-0-4)",
-        "time": "We17:00-19:00 RN1-610",
-        "sec": 2,
-        "remain": 10,
-        "receive": 220,
-        "mid": "29/8/2566 เวลา 17:30:00 ถึง 19:30:00",
-        "final": "24/10/2566 เวลา 17:30:00 ถึง 19:30:00",
-        "lecturer": "รศ.ตุลญา โรจน์ทังคำ"
-    },
-    {
-        "type": "GE-4",
         "code": "0044004",
         "name": "Laws and Everyday Rights",
         "note": "( 2IB (กลุ่ม 90 และ 200 เรียนรวมกัน))",
@@ -54,6 +40,20 @@
         "mid": null,
         "final": null,
         "lecturer": "อ.ธวัช ชินราศรี"
+    },
+    {
+        "type": "GE-4",
+        "code": "0044005",
+        "name": "Laws for Employment",
+        "note": "( +1MD)",
+        "credit": "2 (2-0-4)",
+        "time": "We17:00-19:00 RN1-610",
+        "sec": 2,
+        "remain": 5,
+        "receive": 220,
+        "mid": "29/8/2566 เวลา 17:30:00 ถึง 19:30:00",
+        "final": "24/10/2566 เวลา 17:30:00 ถึง 19:30:00",
+        "lecturer": "รศ.ตุลญา โรจน์ทังคำ"
     },
     {
         "type": "GE-4",
