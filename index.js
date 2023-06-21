@@ -75,7 +75,7 @@ app.post('/Filter', (req, res) => {
          }
          const dataALL = JSON.parse(data);
          const searchResults = dataALL.filter(item => {
-            return searchData.type === item.type ||
+            return (searchData.type.includes(item.type) || searchData.type.length == 0) &&
                (searchData.code.includes(item.code) || searchData.code.length == 0) &&
                (searchData.date.includes(item.time.substring(0, 2)) || searchData.date.length == 0) &&
                (
