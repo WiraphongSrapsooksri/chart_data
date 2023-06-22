@@ -22,8 +22,9 @@ app.get('/datamajor', (req, res) => {
 
 app.get('/Group/:id', (req, res) => {
    const groupId = req.params.id;
+   const universal = "MSU";
    try {
-      const data = require("./Group/MSU/G" + groupId + ".json")
+      const data = require("./Group/"+ universal +"/G" + groupId + ".json")
 
       if (data.length > 0) {
          res.json(data);
@@ -68,7 +69,8 @@ app.post('/updated', (req, res) => {
 app.post('/Filter', (req, res) => {
    try {
       const searchData = req.body;
-      fs.readFile('Group/MSU/dataALL.json', 'utf8', (err, data) => {
+      const universal = "MSU";
+      fs.readFile('Group/'+ universal +'/dataALL.json', 'utf8', (err, data) => {
          if (err) {
             console.error(err);
             return res.status(404).send("Not found");

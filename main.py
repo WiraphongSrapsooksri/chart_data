@@ -166,9 +166,6 @@ class KKU:
             self.dataALL.append(course)
 
     def splitData(self):
-        # sort data by code
-        self.dataALL.sort(key=lambda x: x['code'])
-
         # Create a dictionary for each course and append it to the data list
         GE = {}
         
@@ -344,9 +341,6 @@ class MSU:
 
     # split data
     def splitData(self):
-        # sort data by code
-        self.dataALL.sort(key=lambda x: x['code'])
-
         # Create a dictionary for each course and append it to the data list
         GE = {}
         
