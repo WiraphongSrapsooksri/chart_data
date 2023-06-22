@@ -1,20 +1,19 @@
-import asyncio
+# Import modules
 import re
-import time
 import json
 from bs4 import BeautifulSoup
 import requests
-# read config ini file
 import configparser
 
-
+# Load config
 config = configparser.ConfigParser()
 config.read('webscraping.ini')
 
-# set data in config file
+# Get config
 year = config['config'].get('year')
 semester = config['config'].get('semester')
 
+# Set headers
 headers = {
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
     'accept-language': 'en-US,en;q=0.7',
@@ -24,9 +23,14 @@ headers = {
 
 
 class KKU:
-    dataALL = []
+    # Initial
+    def __init__(self):
+        # init data
+        self.dataALL = []
 
+    # Get all subjects
     def getSubjectsID(self, f_data: str = None, data: set = set()):
+        # set default f_data
         f_data = {
             'coursestatus': 'O00',
             'facultyid': '051General',
@@ -35,6 +39,7 @@ class KKU:
             'Semester': semester,
         } if not f_data else f_data
 
+        # request web page with post method
         response = requests.post(
             'https://reg-mirror.kku.ac.th/registrar/class_info_1.asp',
             headers=headers,
@@ -50,29 +55,35 @@ class KKU:
         # Find all rows in the table, excluding the header and footer rows
         rows = soup.find_all('tr', class_='NormalDetail')
         for row in rows:
+            # get cells
             cells = row.find_all('td')
+            # get id
             id = cells[1].find('a')['href'].split('courseid=')[1].split('&')[0]
+            # add id to data
             data.add(id)
 
         # get nextPages
         try:
+            # if next page is not None
             if soup.find_all('tr')[-1].select_one('td:nth-child(2) > a')['href']:
-                # get page
-                next_f_data = soup.find_all(
-                    'tr')[-1].select_one('td:nth-child(2) > a')['href'].split('class_info_1.asp?')[1]
+                # get next page
+                next_f_data = soup.find_all('tr')[-1].select_one('td:nth-child(2) > a')['href'].split('class_info_1.asp?')[1]
                 return self.getSubjectsID(next_f_data)
         except Exception:
             pass
 
         return data
 
+    # Get details
     def getDetails(self, id: str):
+        # set params
         params = {
             'courseid': id,
             'acadyear': year,
             'semester': semester,
         }
-
+        
+        # request web page with get method
         response = requests.get(
             'https://reg-mirror.kku.ac.th/registrar/class_info_2.asp',
             params=params,
@@ -85,20 +96,19 @@ class KKU:
         # select table by CSS selector
         soup = resp.select('table')[3]
 
-        # remove all class="HeaderDetail"
+        # remove header in table
         for header in soup.find_all(class_="HeaderDetail"):
             header.extract()
-
-        # Initial data
-        data: list = []
 
         # get rows
         rows = soup.find_all('tr')
         for index in range(4, len(rows)):
             row = rows[index]
-            # if not row is class "NormalDetail" or align="left"
+            # check if row is not subject
             if len(row.find_all('td')) < 10:
                 continue
+            
+            # get cells, sec, get day, time, room, recive, remain
             cells = row.find_all('td')
             sec = int(str(cells[1].text.strip()))
             day = cells[3].text.strip()
@@ -107,7 +117,7 @@ class KKU:
             recive = int(cells[8].text.strip())
             remain = int(cells[10].text.strip())
 
-            # format day
+            # set format day
             day = "Mo" if day == "จันทร์" else "Tu" if day == "อังคาร" else "We" if day == "พุธ" else "Th" if day == "พฤหัสบดี" else "Fr"
 
             # get info
@@ -130,7 +140,7 @@ class KKU:
 
             mid = None
 
-            # get data form font
+            # get code, name, credit, type
             code = resp.select('font.NormalDetail')[0].text.strip()
             name = resp.select('font.NormalDetail')[1].text.strip()
             credit = resp.select('font.NormalDetail')[6].text.strip()
@@ -145,8 +155,8 @@ class KKU:
                 'credit': credit,
                 'time': f'{day}{time} {room}',
                 'sec': sec,
-                'recive': recive,
                 'remain': remain,
+                'recive': recive,
                 'mid': mid,
                 'fin': fin,
                 'lecturer': lecturer,
@@ -155,19 +165,51 @@ class KKU:
             # append more attribute to data to dataALL refer id and sec
             self.dataALL.append(course)
 
+    def splitData(self):
+        # sort data by code
+        self.dataALL.sort(key=lambda x: x['code'])
+
+        # Create a dictionary for each course and append it to the data list
+        GE = {}
+        
+        for course in self.dataALL:
+            if course['type'] not in GE:
+                GE[course['type']] = []
+            GE[course['type']].append(course)
+            
+        # Save the JSON data to the file
+        for key in GE:
+            with open(f"Group/KKU/{key}.json", "w", encoding="utf-8") as file:
+                json.dump(GE[key], file, indent=4, ensure_ascii=False)
+
+    # run
     def run(self):
+        # get subjects
         subjects = self.getSubjectsID()
+        # get details
         for subject in subjects:
             self.getDetails(subject)
 
-        # write to json file
+        # sort data by remain most
+        self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
+
+        # split data
+        self.splitData()
+        
+
+        # save data to json file
         with open('Group/KKU/dataALL.json', 'w', encoding='utf-8') as f:
             json.dump(self.dataALL, f, ensure_ascii=False, indent=4)
 
 class MSU:
-    dataALL = []
+    # init
+    def __init__(self):
+        # init data
+        self.dataALL = []
 
+    # scrap
     def scrap(self, f_data: str = None, coursecode:str = "004*"):
+        # set post data
         if not f_data:
             f_data = {
                 'facultyid': 'all',
@@ -177,7 +219,7 @@ class MSU:
                 'coursecode': coursecode,
             }
      
-
+        # request web page with post method
         response = requests.post('https://reg.msu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
         # check status
@@ -212,7 +254,7 @@ class MSU:
             try:
                 lecturer_raw = subject_data[1]
             except:
-                print()
+                pass
             # Extract the <font> elements within the outer <font> element
             font_elements = re.findall(r'<font[^>]*>.*?</font>', lecturer_raw)
             # Extract the text content of the <li> elements
@@ -243,13 +285,13 @@ class MSU:
                 split_data = time.split("สอบปลายภาค")
                 mid = split_data[0].strip().split("สอบกลางภาค")[1].strip()
             except:
-                print()
+                pass
 
             try:
                 split_data = time.split("สอบปลายภาค")
                 final = split_data[1].strip()
             except:
-                print()
+                pass
 
 
             try:
@@ -260,7 +302,7 @@ class MSU:
                     split_data = time.split("สอบปลายภาค")
                     time = split_data[0].strip()
                 except:
-                    print()
+                    pass
 
             # Define the regular expression pattern
             pattern = r'(\d+)([A-Za-z])'
@@ -269,7 +311,7 @@ class MSU:
             # Insert "&" between the number and alphabet character
             time = re.sub(pattern, r'\1 & \2', time)
 
-
+            # set type
             type = "GE-"+code[3:4]
 
             # Create a dictionary for each course and append it to the data list
@@ -289,10 +331,10 @@ class MSU:
             }
             self.dataALL.append(course)
 
-        # get nextPages
+        # check next page
         try:
             if soup.find_all('tr', class_='normalDetail')[-1].select_one('td:nth-child(2) > a')['href']:
-                # get page
+                # set next page data
                 next_f_data = soup.find_all('tr', class_='normalDetail')[-1].select_one('td:nth-child(2) > a')['href'].split('class_info_1.asp?')[1]
                 print(next_f_data)
                 return self.scrap(next_f_data)
@@ -300,44 +342,45 @@ class MSU:
             print("End")
             pass
 
-    def splitData(self, type:str = "GE"):
+    # split data
+    def splitData(self):
+        # sort data by code
+        self.dataALL.sort(key=lambda x: x['code'])
+
         # Create a dictionary for each course and append it to the data list
-        GE1 = []
-        GE2 = []
-        GE3 = []
-        GE4 = []
-        GE5 = []
+        GE = {}
         
         for course in self.dataALL:
-            if course['type'] == 'GE-1':
-                GE1.append(course)
-            elif course['type'] == 'GE-2':
-                GE2.append(course)
-            elif course['type'] == 'GE-3':
-                GE3.append(course)
-            elif course['type'] == 'GE-4':
-                GE4.append(course)
-            elif course['type'] == 'GE-5':
-                GE5.append(course)
+            if course['type'] not in GE:
+                GE[course['type']] = []
+            GE[course['type']].append(course)
             
         # Save the JSON data to the file
-        for i in range(1,6):
-            with open(f"Group/MSU/GE-{i}.json", "w", encoding="utf-8") as file:
-                json.dump(eval(f"GE{i}"), file, indent=4, ensure_ascii=False)
+        for key in GE:
+            with open(f"Group/MSU/{key}.json", "w", encoding="utf-8") as file:
+                json.dump(GE[key], file, indent=4, ensure_ascii=False)
 
+    # run
     def run(self):
+        # scrap data
         self.scrap()
 
         # sort list by remain most
         self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
 
+        # split data
+        self.splitData()
+
         # Save the JSON data to the file
         with open(f"Group/MSU/dataALL.json", "w", encoding="utf-8") as file:
             json.dump(self.dataALL, file, indent=4, ensure_ascii=False)
 
-        self.splitData()
 
 
-
+# time record
+# import time
+# start = time.time()
 MSU().run()
-# KKU().run()
+KKU().run()
+# end = time.time()
+# print(f"Runtime of the program is {end - start}")
