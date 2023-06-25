@@ -1,14 +1,31 @@
 
 const express = require("express");
 const app = express();
+const fs = require('fs');
 const port = process.env.PORT || 3030;
-const dataALL = require("./Group/MSU/dataALL.json")
+// Check has file
+// Add your code here to run the schedule
+const cron = require('node-cron');
+const path = require('path');
+const { exec } = require('child_process');
+const dataALLPath = "./Group/MSU/dataALL.json";
+if (!fs.existsSync(dataALLPath)) {
+   console.error(`File ${dataALLPath} does not exist`);
+   exec(`cd ${path.dirname(__filename)} && python ./main.py`, (error, stdout, stderr) => {
+      if (error) {
+         console.error(`exec error: ${error}`);
+         return;
+      }
+      const dataALL = require(dataALLPath);
+   });
+} else {
+   const dataALL = require(dataALLPath);
+}
 var cors = require('cors')
 app.use(express.json());
 app.use(cors())
 
 var cache_updated = "none"
-const fs = require('fs');
 
 var ready = false;
 
@@ -24,7 +41,7 @@ app.get('/Group/:id', (req, res) => {
    const groupId = req.params.id;
    const universal = "MSU";
    try {
-      const data = require("./Group/"+ universal +"/G" + groupId + ".json")
+      const data = require("./Group/" + universal + "/G" + groupId + ".json")
 
       if (data.length > 0) {
          res.json(data);
@@ -70,7 +87,7 @@ app.post('/Filter', (req, res) => {
    try {
       const searchData = req.body;
       const universal = "MSU";
-      fs.readFile('Group/'+ universal +'/dataALL.json', 'utf8', (err, data) => {
+      fs.readFile('Group/' + universal + '/dataALL.json', 'utf8', (err, data) => {
          if (err) {
             console.error(err);
             return res.status(404).send("Not found");
@@ -104,10 +121,6 @@ app.listen(port, () => {
 
 // Run a schedule
 console.log("Running schedule...");
-// Add your code here to run the schedule
-const cron = require('node-cron');
-const { exec } = require('child_process');
-const path = require('path');
 
 // Run the Python file
 const args = require('minimist')(process.argv.slice(2));
@@ -117,20 +130,20 @@ var seconds = sec;
 var count = 0;
 
 const scheduledFunction = () => {
-   if(!ready) return;
+   if (!ready) return;
 
-   if(cache_updated === "none" && seconds === sec){
+   if (cache_updated === "none" && seconds === sec) {
       seconds = 0;
    }
 
-   if(seconds > 0) {
+   if (seconds > 0) {
       process.stdout.write(`\x1b[K\x1b[90mRequested done on\x1b[0m ${cache_updated} \x1b[90m(${count}) \x1b[33m| \x1b[37m${seconds}\x1b[33m's left...\r`);
       seconds--;
       return
-   } else if(seconds == 0) {
+   } else if (seconds == 0) {
       seconds = -1;
 
-      if(cache_updated === "none"){
+      if (cache_updated === "none") {
          process.stdout.write(`\x1b[K\x1b[90mFirst Running \x1b[33m| \x1b[32mUpdating...\r`);
       } else {
          process.stdout.write(`\x1b[K\x1b[90mRequested done on\x1b[0m ${cache_updated} \x1b[33m| \x1b[90m${count} \x1b[33m| \x1b[32mUpdating...\r`);
@@ -157,4 +170,4 @@ const scheduledFunction = () => {
    }
 }
 
-cron.schedule(`*/30* * * * *`, scheduledFunction);
+cron.schedule('* * * * * *', scheduledFunction);

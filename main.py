@@ -1,4 +1,5 @@
 # Import modules
+import os
 import re
 import json
 from bs4 import BeautifulSoup
@@ -20,6 +21,19 @@ headers = {
     'content-type': 'application/x-www-form-urlencoded',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
 }
+
+# paths
+folder = "Group"
+paths = {
+    "MSU",
+    "KKU",
+}
+
+# check path if not create
+for path in paths:
+    path = os.path.join(folder, path)
+    if not os.path.exists(path):
+        os.makedirs(path)
 
 
 class KKU:
