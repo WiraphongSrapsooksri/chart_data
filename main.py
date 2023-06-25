@@ -36,11 +36,14 @@ for path in paths:
         os.makedirs(path)
 
 
+import threading
+
 class KKU:
     # Initial
     def __init__(self):
         # init data
         self.dataALL = []
+        self.lock = threading.Lock()
 
     # Get all subjects
     def getSubjectsID(self, f_data: str = None, data: set = set()):
@@ -177,7 +180,8 @@ class KKU:
             }
 
             # append more attribute to data to dataALL refer id and sec
-            self.dataALL.append(course)
+            with self.lock:
+                self.dataALL.append(course)
 
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
@@ -197,9 +201,16 @@ class KKU:
     def run(self):
         # get subjects
         subjects = self.getSubjectsID()
+        threads = []
         # get details
         for subject in subjects:
-            self.getDetails(subject)
+            t = threading.Thread(target=self.getDetails, args=(subject,))
+            threads.append(t)
+            t.start()
+
+        # wait for all threads to finish
+        for t in threads:
+            t.join()
 
         # sort data by remain most
         self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
@@ -350,7 +361,6 @@ class MSU:
                 print(next_f_data)
                 return self.scrap(next_f_data)
         except Exception:
-            print("End")
             pass
 
     # split data
@@ -388,7 +398,7 @@ class MSU:
 # time record
 # import time
 # start = time.time()
-MSU().run()
+# MSU().run()
 # KKU().run()
 # end = time.time()
-# print(f"Runtime of the program is {end - start}")
+# print(f"Runtime of the program is {end - start}") 
