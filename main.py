@@ -397,9 +397,9 @@ class MSU:
 
 
 # time record
-import time
-start = time.time()
-# MSU().run()
-KKU().run()
-end = time.time()
-print(f"Runtime of the program is {end - start}") 
+# import time
+# start = time.time()
+MSU().run()
+# KKU().run()
+# end = time.time()
+# print(f"Runtime of the program is {end - start}") 
