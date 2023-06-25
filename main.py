@@ -1,6 +1,3 @@
-from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
-from lxml import etree
 # Import modules
 import os
 import re
@@ -38,14 +35,15 @@ for path in paths:
     if not os.path.exists(path):
         os.makedirs(path)
 
+
 import threading
+
 class KKU:
     # Initial
     def __init__(self):
         # init data
         self.dataALL = []
         self.lock = threading.Lock()
-        self.session = requests.Session()
 
     # Get all subjects
     def getSubjectsID(self, f_data: str = None, data: set = set()):
@@ -59,34 +57,34 @@ class KKU:
         } if not f_data else f_data
 
         # request web page with post method
-        response = self.session.post(
+        response = requests.post(
             'https://reg-mirror.kku.ac.th/registrar/class_info_1.asp',
             headers=headers,
             data=f_data,
         )
 
-        # lxml
-        resp = etree.HTML(response.content)
+        # bs4
+        resp = BeautifulSoup(response.content, 'html.parser')
 
-        # select table by XPath
-        soup = resp.xpath('//table')[1]
+        # select table by CSS selector
+        soup = resp.select('table')[1]
 
         # Find all rows in the table, excluding the header and footer rows
-        rows = soup.xpath('//tr[@class="NormalDetail"]')
+        rows = soup.find_all('tr', class_='NormalDetail')
         for row in rows:
             # get cells
-            cells = row.xpath('.//td')
+            cells = row.find_all('td')
             # get id
-            id = cells[1].find('a').get('href').split('courseid=')[1].split('&')[0]
+            id = cells[1].find('a')['href'].split('courseid=')[1].split('&')[0]
             # add id to data
             data.add(id)
 
         # get nextPages
         try:
             # if next page is not None
-            if soup.xpath('//tr')[-1].xpath('.//td[2]/a/@href'):
+            if soup.find_all('tr')[-1].select_one('td:nth-child(2) > a')['href']:
                 # get next page
-                next_f_data = soup.xpath('//tr')[-1].xpath('.//td[2]/a/@href')[0]
+                next_f_data = soup.find_all('tr')[-1].select_one('td:nth-child(2) > a')['href'].split('class_info_1.asp?')[1]
                 return self.getSubjectsID(next_f_data)
         except Exception:
             pass
@@ -103,32 +101,32 @@ class KKU:
         }
         
         # request web page with get method
-        response = self.session.get(
+        response = requests.get(
             'https://reg-mirror.kku.ac.th/registrar/class_info_2.asp',
             params=params,
             headers=headers,
         )
 
-        # lxml
-        resp = etree.HTML(response.content)
+        # bs4
+        resp = BeautifulSoup(response.content, 'html.parser')
 
-        # select table by XPath
-        soup = resp.xpath('//table')[3]
+        # select table by CSS selector
+        soup = resp.select('table')[3]
 
         # remove header in table
-        for header in soup.xpath('.//tr[@class="HeaderDetail"]'):
-            header.getparent().remove(header)
+        for header in soup.find_all(class_="HeaderDetail"):
+            header.extract()
 
         # get rows
-        rows = soup.xpath('.//tr')
+        rows = soup.find_all('tr')
         for index in range(4, len(rows)):
             row = rows[index]
             # check if row is not subject
-            if len(row.xpath('.//td')) < 10:
+            if len(row.find_all('td')) < 10:
                 continue
             
             # get cells, sec, get day, time, room, recive, remain
-            cells = row.xpath('.//td')
+            cells = row.find_all('td')
             sec = int(str(cells[1].text.strip()))
             day = cells[3].text.strip()
             time = cells[4].text.strip()
@@ -141,7 +139,7 @@ class KKU:
 
             # get info
             info_htmls = [
-                rows[index+1].xpath('.//td'), rows[index+3].xpath('.//td')]
+                rows[index+1].find_all('td'), rows[index+3].find_all('td')]
 
             lecturer, fin = [info[4].text.strip().replace(
                 "  ", "") or None for info in info_htmls]
@@ -149,19 +147,20 @@ class KKU:
             # init sumrong
             sumrong = ""
 
-            if rows[index+2].xpath('.//td[4]//br'):
-                for br in rows[index+2].xpath('.//td[4]//br'):
-                    sumrong += br.tail.strip() + " / "
+            if rows[index+2].find_all('td')[4].find_all('br'):
+                for br in rows[index+2].find_all('td')[4].find_all('br'):
+                    sumrong += br.next_sibling.strip() + " / "
                 sumrong = sumrong.replace("  ", "").replace("   ", " ")[:-3]
             else:
-                sumrong = rows[index+2].xpath('.//td[4]//text()')[0].strip().replace("  ", "").replace("   ", " ")
+                sumrong = rows[index+2].find_all(
+                    'td')[4].text.strip().replace("  ", "").replace("   ", " ")
 
             mid = None
 
             # get code, name, credit, type
-            code = resp.xpath('//font[@class="NormalDetail"]')[0].text
-            name = resp.xpath('//font[@class="NormalDetail"]')[1].text
-            credit = resp.xpath('//font[@class="NormalDetail"]')[6].text
+            code = resp.select('font.NormalDetail')[0].text.strip()
+            name = resp.select('font.NormalDetail')[1].text.strip()
+            credit = resp.select('font.NormalDetail')[6].text.strip()
             type = "GE-"+code[2:3]
 
             # set course
@@ -184,34 +183,34 @@ class KKU:
             with self.lock:
                 self.dataALL.append(course)
 
-    def saveJSONData(self, GE):
-        # Save the JSON data to the file
-        for key in GE:
-            file_path = Path(f"Group/KKU/{key}.json")
-            with file_path.open("w", encoding="utf-8") as file:
-                json.dump(GE[key], file, indent=4, ensure_ascii=False)
-
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
-        GE = {course['type']: [] for course in self.dataALL}
+        GE = {}
         
         for course in self.dataALL:
+            if course['type'] not in GE:
+                GE[course['type']] = []
             GE[course['type']].append(course)
             
-        self.saveJSONData(GE)
+        # Save the JSON data to the file
+        for key in GE:
+            with open(f"Group/KKU/{key}.json", "w", encoding="utf-8") as file:
+                json.dump(GE[key], file, indent=4, ensure_ascii=False)
 
     # run
     def run(self):
         # get subjects
         subjects = self.getSubjectsID()
-        with ThreadPoolExecutor() as executor:
-            # get details
-            for subject in subjects:
-                executor.submit(self.getDetails, subject)
+        threads = []
+        # get details
+        for subject in subjects:
+            t = threading.Thread(target=self.getDetails, args=(subject,))
+            threads.append(t)
+            t.start()
 
         # wait for all threads to finish
-        self.splitData()
-        executor.shutdown()
+        for t in threads:
+            t.join()
 
         # sort data by remain most
         self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
