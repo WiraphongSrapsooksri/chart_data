@@ -248,9 +248,15 @@ class MSU:
         if response.status_code != 200:
             print(f"Error: {response.status_code}")
             return
+        
+        # convert from windows-874 charset to utf-8
+        response.encoding = "windows-874"
+
+        content_windows874 = response.content
+        content_utf8 = content_windows874.decode("TIS-620").encode("utf-8")
 
         # BeautifulSoup
-        resp = BeautifulSoup(response.content, 'html.parser')
+        resp = BeautifulSoup(content_utf8, 'html.parser')
 
         # select table by CSS selector
         soup = resp.select_one('body > div.contenttive > div:nth-child(1) > div.main > div > table:nth-child(6)')
