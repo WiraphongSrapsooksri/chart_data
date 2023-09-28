@@ -1,3 +1,3 @@
-# chart_data
+# MSU Subjects API
 
 node index
