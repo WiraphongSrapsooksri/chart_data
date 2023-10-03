@@ -21,3 +21,6 @@ test.py
 test2.html
 test2.py
 webscraping.py
+
+node_modules*
+*package-lock*

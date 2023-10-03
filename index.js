@@ -16,11 +16,11 @@ if (!fs.existsSync(dataALLPath)) {
          console.error(`exec error: ${error}`);
          return;
       }
-      const dataALL = require(dataALLPath);
    });
-} else {
-   const dataALL = require(dataALLPath);
 }
+
+var dataALL = require(dataALLPath);
+
 var cors = require('cors')
 app.use(express.json());
 app.use(cors())
