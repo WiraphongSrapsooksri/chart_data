@@ -1,6 +1,8 @@
 # Use an appropriate base image
 FROM ubuntu:20.04
 
+RUN sed -i 's/archive.ubuntu.com/th.archive.ubuntu.com/g' /etc/apt/sources.list
+
 # Update the package list and install required packages
 RUN apt-get update && \
     apt-get install -y curl gnupg2 && \
