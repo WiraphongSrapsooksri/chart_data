@@ -24,4 +24,4 @@ RUN npm install -f
 
 EXPOSE 3030
 
-CMD ["node", "index.js", "-t", "86400"]
+CMD ["node", "index.js", "-t", "5"]
