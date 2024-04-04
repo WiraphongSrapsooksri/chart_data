@@ -24,3 +24,4 @@ webscraping.py
 
 node_modules*
 *package-lock*
+.DS_Store
