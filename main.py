@@ -100,7 +100,7 @@ class KKU:
             'acadyear': year,
             'semester': semester,
         }
-        
+
         # request web page with get method
         response = requests.get(
             'https://reg-mirror.kku.ac.th/registrar/class_info_2.asp',
@@ -125,7 +125,7 @@ class KKU:
             # check if row is not subject
             if len(row.find_all('td')) < 10:
                 continue
-            
+
             # get cells, sec, get day, time, room, recive, remain
             cells = row.find_all('td')
             sec = int(str(cells[1].text.strip()))
@@ -187,12 +187,12 @@ class KKU:
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
+
         # Save the JSON data to the file
         for key in GE:
             with open(f"Group/KKU/{key}.json", "w", encoding="utf-8") as file:
@@ -218,7 +218,7 @@ class KKU:
 
         # split data
         self.splitData()
-        
+
 
         # save data to json file
         with open('Group/KKU/dataALL.json', 'w', encoding='utf-8') as f:
@@ -241,7 +241,7 @@ class MSU:
                 'semester': semester,
                 'coursecode': coursecode,
             }
-     
+
         # request web page with post method
         response = requests.post('https://reg.msu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
@@ -249,7 +249,7 @@ class MSU:
         if response.status_code != 200:
             print(f"Error: {response.status_code}")
             return
-        
+
         # convert from windows-874 charset to utf-8
         response.encoding = "windows-874"
 
@@ -374,12 +374,12 @@ class MSU:
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
+
         # Save the JSON data to the file
         for key in GE:
             with open(f"Group/MSU/{key}.json", "w", encoding="utf-8") as file:
@@ -421,9 +421,9 @@ class UBU:
                 'coursecode': coursecode,
                 'page': 1
             }
-     
+
         print(f_data)
-     
+
         # request web page with post method
         response = requests.post('https://reg2.ubu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
@@ -439,7 +439,7 @@ class UBU:
         last_row = resp.select('#page > table:nth-child(5) > tbody > tr > td:nth-child(3) > font > font > font > div > table > tbody > tr')[-1]
         # current_page = int(last_row.find_all('span')[-1].text.strip())
         has_nextpage = len(last_row.find_all('a')) > 0
-        
+
         if has_nextpage:
             link_page = int(last_row.find_all('a')[-1].text.strip())
             # if current_page < link_page:
@@ -552,6 +552,8 @@ class UBU:
                 # shared_queue.put(course)
             #     self.result_queue_w.put(course)
 
+            # end process
+            return
         # except Exception:
         #     pass
 
@@ -559,12 +561,12 @@ class UBU:
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
+
         # Save the JSON data to the file
         for key in GE:
             with open(f"Group/UBU/{key}.json", "w", encoding="utf-8") as file:
@@ -607,7 +609,7 @@ class UBU:
             self.dataALL.append(self.result_queue.get())
 
         # print(self.dataALL)
-        
+
         # sort list by remain most
         self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
 
@@ -626,4 +628,4 @@ if __name__ == '__main__':
     # KKU().run()
     UBU().run()
     # end = time.time()
-    # print(f"Runtime of the program is {end - start}") 
+    # print(f"Runtime of the program is {end - start}")
