@@ -100,7 +100,7 @@ class KKU:
             'acadyear': year,
             'semester': semester,
         }
-        
+
         # request web page with get method
         response = requests.get(
             'https://reg-mirror.kku.ac.th/registrar/class_info_2.asp',
@@ -125,7 +125,7 @@ class KKU:
             # check if row is not subject
             if len(row.find_all('td')) < 10:
                 continue
-            
+
             # get cells, sec, get day, time, room, recive, remain
             cells = row.find_all('td')
             sec = int(str(cells[1].text.strip()))
@@ -187,12 +187,12 @@ class KKU:
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
+
         # Save the JSON data to the file
         for key in GE:
             with open(f"Group/KKU/{key}.json", "w", encoding="utf-8") as file:
@@ -218,7 +218,7 @@ class KKU:
 
         # split data
         self.splitData()
-        
+
 
         # save data to json file
         with open('Group/KKU/dataALL.json', 'w', encoding='utf-8') as f:
@@ -241,7 +241,7 @@ class MSU:
                 'semester': semester,
                 'coursecode': coursecode,
             }
-     
+
         # request web page with post method
         response = requests.post('https://reg.msu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
@@ -249,7 +249,7 @@ class MSU:
         if response.status_code != 200:
             print(f"Error: {response.status_code}")
             return
-        
+
         # convert from windows-874 charset to utf-8
         response.encoding = "windows-874"
 
@@ -374,12 +374,12 @@ class MSU:
     def splitData(self):
         # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
+
         # Save the JSON data to the file
         for key in GE:
             with open(f"Group/MSU/{key}.json", "w", encoding="utf-8") as file:
@@ -401,222 +401,155 @@ class MSU:
             json.dump(self.dataALL, file, indent=4, ensure_ascii=False)
 
 class UBU:
-    # init
     def __init__(self):
-        # init data
         self.dataALL = []
-        self.other_processes = multiprocessing.Queue()
-        self.result_queue = multiprocessing.Queue()
-        self.result_queue_w = multiprocessing.Queue()
+        self.manager = multiprocessing.Manager()
+        self.result_list = self.manager.list()
 
-    # scrap
-    def scrap(self, f_data = None, coursecode:str = "111*", shared_queue = None):
-        # set post data
-        if f_data is None:
-            f_data = {
-                'facultyid': 'all',
-                'maxrow': '1000',
-                'Acadyear': year,
-                'semester': semester,
-                'coursecode': coursecode,
-                'page': 1
-            }
-     
+    @staticmethod
+    def scrap(result_list, f_data, coursecode):
         print(f_data)
-     
-        # request web page with post method
+
         response = requests.post('https://reg2.ubu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
 
-        # check status
         if response.status_code != 200:
             print(f"Error: {response.status_code}")
             return
 
-        # BeautifulSoup
         resp = BeautifulSoup(response.content, 'html5lib')
 
-        # try:
-        last_row = resp.select('#page > table:nth-child(5) > tbody > tr > td:nth-child(3) > font > font > font > div > table > tbody > tr')[-1]
-        # current_page = int(last_row.find_all('span')[-1].text.strip())
-        has_nextpage = len(last_row.find_all('a')) > 0
-        
-        if has_nextpage:
-            link_page = int(last_row.find_all('a')[-1].text.strip())
-            # if current_page < link_page:
-            #     # set next page data
-            #     print(f'{coursecode}: {current_page}/{link_page} => {current_page+1}')
+        try:
+            rows = resp.select('#page > table:nth-child(5) > tbody > tr > td:nth-child(3) > font > font > font > div > table > tbody > tr')[2:-1]
 
-            for x in range(link_page-1):
-                self.other_processes.put([{
-                'facultyid': 'all',
-                'maxrow': '1000',
-                'Acadyear': year,
-                'semester': semester,
-                'coursecode': coursecode,
-                'page': x+2
-            }, coursecode])
-                # print(f'{x+2}')
+            for row in rows:
+                cells = row.find_all('td')
+                code = cells[1].find('a').text.strip()
+                subject_data = cells[2].decode_contents().split("<br/>")
+                name = subject_data[0].split("<font")[1].split(">")[1]
+                credit = cells[3].text.strip().replace('(', ' (')
+                raw_time = ' & '.join(cells[5].text.strip().replace('จ.', '|Mo').replace('อ.', '|Tu').replace('พ.', '|We').replace('พฤ.', '|Th').replace('ศ.', '|Fr').replace('ส.', '|Sa').replace('อา.', '|Su').split('|')[1:])
+                time = raw_time.split('สอบ  ')[0]
+                sec = int(cells[4].text.strip())
+                remain = int(cells[7].text.strip())
+                status = cells[8].text.strip()
+                receive = int(cells[6].text.strip())
 
-        # Find all rows in the table, excluding the header and footer rows
-        rows = resp.select('#page > table:nth-child(5) > tbody > tr > td:nth-child(3) > font > font > font > div > table > tbody > tr')[2:-1]
+                if status == 'ปิด':
+                    continue
 
-        # Iterate over each row and extract the required information
-        for row in rows:
-            cells = row.find_all('td')
-            code = cells[1].find('a').text.strip()
-            subject_data = cells[2].decode_contents().split("<br/>")
-            name = subject_data[0].split("<font")[1].split(">")[1]
-            credit = cells[3].text.strip().replace('(', ' (')
-            raw_time = ' & '.join(cells[5].text.strip().replace('จ.','|Mo').replace('อ.','|Tu').replace('พ.','|We').replace('พฤ.','|Th').replace('ศ.','|Fr').replace('ส.','|Sa').replace('อา.','|Su').split('|')[1:])
-            time = raw_time.split('สอบ  ')[0]
-            sec = int(cells[4].text.strip())
-            remain = int(cells[7].text.strip())
-            receive = int(cells[6].text.strip())
-            # print(f'{code} sec: {sec}')
-
-            lecturer_raw = subject_data[0]
-            try:
-                lecturer_raw = subject_data[1]
-            except:
-                pass
-
-            # Extract the <font> elements within the outer <font> element
-            font_elements = re.findall(r'<font[^>]*>.*?</font>', lecturer_raw)
-            # Extract the text content of the <li> elements
-            li_text = [li for font in font_elements for li in re.findall(r'<li>.*?</li>', font)]
-            # Remove the <li> tags from the extracted text
-            li_text = [re.findall(r'<li>(.*?)<\/li>', nameLecture)[0].replace('<li>', ' / ') for nameLecture in li_text]
-            # Join the extracted text with a delimiter
-            lecturer = ' / '.join(li_text)
-
-            # Find the first <font> element
-            first_font = re.search(r'<font[^>]*>(.*?)</font>', lecturer_raw)
-
-            # Remove any nested <font> elements within the first <font> element
-            content = re.sub(r'<font[^>]*>.*?</font>', '', first_font.group(1))
-            # Find the content before the <font> tag
-            match = re.search(r'(.*?)<font', content)
-
-            # Extract the content
-            if match:
-                content = match.group(1)
-            else:
-                content = ""
-
-            mid = None
-            final = None
-
-            if len(raw_time.split('สอบ  ')) >= 2:
+                lecturer_raw = subject_data[0]
                 try:
-                    split_data = raw_time.split('สอบ  ')[1].split("M ")
-                    mid = split_data[0].strip().split("M ")[1].strip()
+                    lecturer_raw = subject_data[1]
                 except:
                     pass
 
-                try:
-                    split_data = raw_time.split('สอบ  ')[1].split("F ")
-                    final = split_data[1].strip()
-                except:
-                    pass
+                font_elements = re.findall(r'<font[^>]*>.*?</font>', lecturer_raw)
+                li_text = [li for font in font_elements for li in re.findall(r'<li>.*?</li>', font)]
+                li_text = [re.findall(r'<li>(.*?)<\/li>', nameLecture)[0].replace('<li>', ' / ') for nameLecture in li_text]
+                lecturer = ' / '.join(li_text)
 
-            # Define the regular expression pattern
-            pattern = r'(\d+)([A-Za-z])'
-            # Insert "&" between the number and alphabet character
-            time = re.sub(pattern, r'\1 & \2', time)
+                first_font = re.search(r'<font[^>]*>(.*?)</font>', lecturer_raw)
+                content = re.sub(r'<font[^>]*>.*?</font>', '', first_font.group(1)) if first_font else ""
+                match = re.search(r'(.*?)<font', content)
+                content = match.group(1) if match else ""
 
-            # set type
-            type = "GE-"+code[0:4]
+                mid = None
+                final = None
 
-            # Create a dictionary for each course and append it to the data list
-            course = {
-                'type': type,
-                'code': code,
-                'name': name,
-                'note': content,
-                'credit': credit,
-                'time': time,
-                'sec': sec,
-                'remain':remain,
-                'receive': receive,
-                'mid': mid,
-                'final': final,
-                'lecturer': lecturer
-            }
-            # on multiprocessor i will put data into queue instead straight on array
-            # self.dataALL.append(course)
-            # if f_data['page'] == 2:
-            if shared_queue is None:
-                self.result_queue.put(course)
-            # else:
-                # TODO:เทส เพิ่มข้อมูลลงใน queue หลังเรียกผ่าน microprocessing ซ้ำไม่ได้ น่าจะติด dead lock อะไรซักอย่าง
-                # shared_queue.put(course)
-            #     self.result_queue_w.put(course)
+                if len(raw_time.split('สอบ  ')) >= 2:
+                    # Extract the regular class time
+                    time_details = cells[5].text
+                    # Extract mid and final exam times
+                    mid_exam_matches = re.findall(r'M (\d{2}\/\d{2}\/\d{2} \d{2}:\d{2}-\d{2}:\d{2} [\w\d]+)', time_details)
+                    final_exam_matches = re.findall(r'F (\d{2}\/\d{2}\/\d{2} \d{2}:\d{2}-\d{2}:\d{2} [\w\d]+)', time_details)
+                    mid = ' & '.join(mid_exam_matches)
+                    final = ' & '.join(final_exam_matches)
+                #     try:
+                #         split_data = raw_time.split('สอบ  ')[1].split("M ")
+                #         mid = split_data[0].strip().split("M ")[1].strip()
+                #     except:
+                #         pass
 
-        # except Exception:
-        #     pass
+                #     try:
+                #         split_data = raw_time.split('สอบ  ')[1].split("F ")
+                #         final = split_data[1].strip()
+                #     except:
+                #         pass
 
-    # split data
+                pattern = r'(\d+)([A-Za-z])'
+                time = re.sub(pattern, r'\1 & \2', time)
+
+                type = "GE-" + code[0:4]
+
+                course = {
+                    'type': type,
+                    'code': code,
+                    'name': name,
+                    'note': content,
+                    'credit': credit,
+                    'time': time,
+                    'sec': sec,
+                    'remain': remain,
+                    'receive': receive,
+                    'mid': mid,
+                    'final': final,
+                    'lecturer': lecturer
+                }
+                result_list.append(course)
+        except Exception as e:
+            print(f"Error processing: {e}")
+
     def splitData(self):
-        # Create a dictionary for each course and append it to the data list
         GE = {}
-        
+
         for course in self.dataALL:
             if course['type'] not in GE:
                 GE[course['type']] = []
             GE[course['type']].append(course)
-            
-        # Save the JSON data to the file
+
         for key in GE:
             with open(f"Group/UBU/{key}.json", "w", encoding="utf-8") as file:
                 json.dump(GE[key], file, indent=4, ensure_ascii=False)
 
-    # run
     def run(self):
-        # scrap data
-        # self.scrap_wrapper('201*')
-        # return
-        # List of patterns to pass to the scrap function
         patterns = ["10*", "111*", "121*", "131*", "141*", "151*", "171*", "181*", "191*", "201*", "211*", "231*"]
+        # patterns = ["141*"]
 
-        processes = [multiprocessing.Process(target=self.scrap, args=[None, pat]) for pat in patterns]
+        tasks = []
+        for pat in patterns:
+            f_data = {
+                'facultyid': 'all',
+                'maxrow': '1000',
+                'Acadyear': '2565',
+                'semester': '1',
+                'coursecode': pat,
+                'page': 1
+            }
+            response = requests.post('https://reg2.ubu.ac.th/registrar/class_info_1.asp', headers=headers, data=f_data)
+            if response.status_code == 200:
+                resp = BeautifulSoup(response.content, 'html5lib')
+                last_row = resp.select('#page > table:nth-child(5) > tbody > tr > td:nth-child(3) > font > font > font > div > table > tbody > tr')[-1]
+                has_nextpage = len(last_row.find_all('a')) > 0
+                if has_nextpage:
+                    link_page = int(last_row.find_all('a')[-1].text.strip())
+                    for page in range(1, link_page + 1):
+                        f_data['page'] = page
+                        tasks.append((self.result_list, f_data.copy(), pat))
+                else:
+                    tasks.append((self.result_list, f_data.copy(), pat))
 
-        # Use multiprocessing pool to execute scrap function for each pattern
-        for process in processes:
-            process.start()
+        with multiprocessing.Pool() as pool:
+            pool.starmap(UBU.scrap, tasks)
 
-        for process in processes:
-            process.join()
+        self.dataALL.extend(self.result_list)
 
-        other_processes = []
-
-        shared_queue = multiprocessing.Queue()
-
-        while not self.other_processes.empty():
-            temp = self.other_processes.get()
-            other_processes.append(multiprocessing.Process(target=self.scrap, args=[temp[0], temp[1], shared_queue]))
-            # print(temp)
-
-        # print(other_processes)
-        for process in other_processes:
-            process.start()
-
-        for process in other_processes:
-            process.join()
-
-        while not self.result_queue.empty():
-            self.dataALL.append(self.result_queue.get())
-
-        # print(self.dataALL)
-        
-        # sort list by remain most
         self.dataALL.sort(key=lambda x: x['remain'], reverse=True)
 
-        # split data
         self.splitData()
 
-        # Save the JSON data to the file
         with open(f"Group/UBU/dataALL.json", "w", encoding="utf-8") as file:
             json.dump(self.dataALL, file, indent=4, ensure_ascii=False)
+
 
 if __name__ == '__main__':
     # time record
@@ -626,4 +559,4 @@ if __name__ == '__main__':
     # KKU().run()
     UBU().run()
     # end = time.time()
-    # print(f"Runtime of the program is {end - start}") 
+    # print(f"Runtime of the program is {end - start}")
