@@ -9,7 +9,7 @@
         "sec": 2,
         "remain": 76,
         "receive": 82,
-        "mid": null,
+        "mid": "03/08/65 17:00-19:00 CLB3304",
         "final": "05/10/65 17:00-19:00 CLB5201",
         "lecturer": "Mr.Loylounant Oudhomyath / อาจารย์นิโลบล นาคพลังกูล"
     },
@@ -23,7 +23,7 @@
         "sec": 1,
         "remain": 57,
         "receive": 60,
-        "mid": null,
+        "mid": "03/08/65 17:00-19:00 CLB3304",
         "final": "05/10/65 17:00-19:00 CLB5201",
         "lecturer": "อาจารย์นิโลบล นาคพลังกูล"
     },
@@ -37,7 +37,7 @@
         "sec": 1,
         "remain": 12,
         "receive": 15,
-        "mid": null,
+        "mid": "04/08/65 13:00-16:00 LA306",
         "final": "06/10/65 13:00-16:00 LA306",
         "lecturer": "อาจารย์นิโลบล นาคพลังกูล"
     },
@@ -51,7 +51,7 @@
         "sec": 1,
         "remain": 11,
         "receive": 60,
-        "mid": null,
+        "mid": "04/08/65 09:00-11:00 LA306",
         "final": "06/10/65 09:00-11:00 LA306",
         "lecturer": "Mr.Loylounant Oudhomyath"
     },
@@ -65,7 +65,7 @@
         "sec": 1,
         "remain": 9,
         "receive": 15,
-        "mid": null,
+        "mid": "05/08/65 09:00-12:00 LA306",
         "final": "07/10/65 09:00-11:00 LA306",
         "lecturer": "Mr.Loylounant Oudhomyath"
     },
@@ -79,7 +79,7 @@
         "sec": 1,
         "remain": 9,
         "receive": 15,
-        "mid": null,
+        "mid": "03/08/65 13:00-15:00 LA306",
         "final": "05/10/65 13:00-15:00 LA306",
         "lecturer": "Mr.Loylounant Oudhomyath"
     },
@@ -93,7 +93,7 @@
         "sec": 1,
         "remain": 1,
         "receive": 30,
-        "mid": null,
+        "mid": "02/08/65 13:00-15:00 ILC207",
         "final": "06/10/65 13:00-15:00 ILC207",
         "lecturer": "Mr.Loylounant Oudhomyath"
     },
@@ -107,7 +107,7 @@
         "sec": 1,
         "remain": 1,
         "receive": 10,
-        "mid": null,
+        "mid": "03/08/65 13:00-15:00 LA306",
         "final": "04/10/65 13:00-15:00 ILC304",
         "lecturer": "Mr.Loylounant Oudhomyath"
     }

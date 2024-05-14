@@ -431,7 +431,11 @@ class UBU:
                 time = raw_time.split('สอบ  ')[0]
                 sec = int(cells[4].text.strip())
                 remain = int(cells[7].text.strip())
+                status = cells[8].text.strip()
                 receive = int(cells[6].text.strip())
+
+                if status == 'ปิด':
+                    continue
 
                 lecturer_raw = subject_data[0]
                 try:
@@ -453,17 +457,24 @@ class UBU:
                 final = None
 
                 if len(raw_time.split('สอบ  ')) >= 2:
-                    try:
-                        split_data = raw_time.split('สอบ  ')[1].split("M ")
-                        mid = split_data[0].strip().split("M ")[1].strip()
-                    except:
-                        pass
+                    # Extract the regular class time
+                    time_details = cells[5].text
+                    # Extract mid and final exam times
+                    mid_exam_matches = re.findall(r'M (\d{2}\/\d{2}\/\d{2} \d{2}:\d{2}-\d{2}:\d{2} [\w\d]+)', time_details)
+                    final_exam_matches = re.findall(r'F (\d{2}\/\d{2}\/\d{2} \d{2}:\d{2}-\d{2}:\d{2} [\w\d]+)', time_details)
+                    mid = ' & '.join(mid_exam_matches)
+                    final = ' & '.join(final_exam_matches)
+                #     try:
+                #         split_data = raw_time.split('สอบ  ')[1].split("M ")
+                #         mid = split_data[0].strip().split("M ")[1].strip()
+                #     except:
+                #         pass
 
-                    try:
-                        split_data = raw_time.split('สอบ  ')[1].split("F ")
-                        final = split_data[1].strip()
-                    except:
-                        pass
+                #     try:
+                #         split_data = raw_time.split('สอบ  ')[1].split("F ")
+                #         final = split_data[1].strip()
+                #     except:
+                #         pass
 
                 pattern = r'(\d+)([A-Za-z])'
                 time = re.sub(pattern, r'\1 & \2', time)
@@ -502,6 +513,7 @@ class UBU:
 
     def run(self):
         patterns = ["10*", "111*", "121*", "131*", "141*", "151*", "171*", "181*", "191*", "201*", "211*", "231*"]
+        # patterns = ["141*"]
 
         tasks = []
         for pat in patterns:

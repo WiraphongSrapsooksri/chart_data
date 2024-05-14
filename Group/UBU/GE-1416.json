@@ -9,7 +9,7 @@
         "sec": 1,
         "remain": 96,
         "receive": 98,
-        "mid": null,
+        "mid": "02/08/65 09:00-12:00 ILC106",
         "final": "12/10/65 13:00-15:00 ILC106",
         "lecturer": "ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     },
@@ -23,7 +23,7 @@
         "sec": 1,
         "remain": 77,
         "receive": 80,
-        "mid": null,
+        "mid": "09/08/65 13:00-16:00 ILC306",
         "final": "06/10/65 09:00-12:00 ILC305",
         "lecturer": "อาจารย์วิศรุตา โมราชาติ"
     },
@@ -37,7 +37,7 @@
         "sec": 1,
         "remain": 68,
         "receive": 70,
-        "mid": null,
+        "mid": "08/08/65 13:00-16:00 ILC106",
         "final": "09/10/65 09:00-12:00 ILC306",
         "lecturer": "อาจารย์วนัสนันทน์ สุกทน"
     },
@@ -65,7 +65,7 @@
         "sec": 1,
         "remain": 66,
         "receive": 70,
-        "mid": null,
+        "mid": "09/08/65 09:00-12:00 ILC306",
         "final": "11/10/65 09:00-12:00 ILC306",
         "lecturer": "อาจารย์วิศรุตา โมราชาติ"
     },
@@ -79,7 +79,7 @@
         "sec": 2,
         "remain": 45,
         "receive": 45,
-        "mid": null,
+        "mid": "03/08/65 13:00-16:00 ILC106",
         "final": "05/10/65 13:00-15:00 ILC106",
         "lecturer": "อาจารย์ชาคริยา ชุมมวล"
     },
@@ -93,8 +93,8 @@
         "sec": 2,
         "remain": 44,
         "receive": 45,
-        "mid": null,
-        "final": "08/10/65 12:00-16:00 ACB-พวงพยอม",
+        "mid": "06/08/65 13:00-16:00 CLB3303",
+        "final": "08/10/65 12:00-16:00 ACB",
         "lecturer": "Mr.Yohei Sasaki / Mr.Unju Jumpei"
     },
     {
@@ -107,8 +107,8 @@
         "sec": 1,
         "remain": 44,
         "receive": 45,
-        "mid": null,
-        "final": "04/10/65 13:00-16:00 ACB-พวงพยอม",
+        "mid": "08/08/65 13:00-16:00 CLB3303",
+        "final": "04/10/65 13:00-16:00 ACB",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร"
     },
     {
@@ -121,8 +121,8 @@
         "sec": 2,
         "remain": 44,
         "receive": 44,
-        "mid": null,
-        "final": "04/10/65 13:00-16:00 ACB-พวงพยอม",
+        "mid": "08/08/65 13:00-16:00 CLB3303",
+        "final": "04/10/65 13:00-16:00 ACB",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร"
     },
     {
@@ -135,8 +135,8 @@
         "sec": 1,
         "remain": 44,
         "receive": 45,
-        "mid": null,
-        "final": "08/10/65 12:00-16:00 ACB-พวงพยอม",
+        "mid": "06/08/65 13:00-16:00 CLB3303",
+        "final": "08/10/65 12:00-16:00 ACB",
         "lecturer": "Mr.Yohei Sasaki / Mr.Unju Jumpei"
     },
     {
@@ -149,7 +149,7 @@
         "sec": 2,
         "remain": 43,
         "receive": 45,
-        "mid": null,
+        "mid": "10/08/65 13:00-16:00 ILC106",
         "final": "11/10/65 13:00-17:00 ILC106",
         "lecturer": "นางสาวKumiko Mishima / Mr.Unju Jumpei"
     },
@@ -163,7 +163,7 @@
         "sec": 1,
         "remain": 43,
         "receive": 45,
-        "mid": null,
+        "mid": "03/08/65 13:00-16:00 ILC106",
         "final": "05/10/65 13:00-15:00 ILC106",
         "lecturer": "อาจารย์ชาคริยา ชุมมวล"
     },
@@ -177,7 +177,7 @@
         "sec": 1,
         "remain": 39,
         "receive": 40,
-        "mid": null,
+        "mid": "06/08/65 00:00-12:00 ILC205",
         "final": "08/10/65 09:00-12:00 ILC205",
         "lecturer": "Mr.Masaki Koji"
     },
@@ -191,7 +191,7 @@
         "sec": 1,
         "remain": 39,
         "receive": 40,
-        "mid": null,
+        "mid": "02/08/65 13:00-16:00 ILC106",
         "final": "12/10/65 13:00-16:00 CLB2214",
         "lecturer": "Mr.Yohei Sasaki"
     },
@@ -205,7 +205,7 @@
         "sec": 1,
         "remain": 39,
         "receive": 40,
-        "mid": null,
+        "mid": "10/08/65 13:00-16:00 ILC106",
         "final": "11/10/65 13:00-17:00 ILC106",
         "lecturer": "Mr.Unju Jumpei / นางสาวKumiko Mishima"
     },
@@ -219,7 +219,7 @@
         "sec": 2,
         "remain": 38,
         "receive": 40,
-        "mid": null,
+        "mid": "02/08/65 13:00-16:00 ILC106",
         "final": "12/10/65 13:00-16:00 CLB2214",
         "lecturer": "Mr.Yohei Sasaki"
     },
@@ -233,7 +233,7 @@
         "sec": 1,
         "remain": 36,
         "receive": 36,
-        "mid": null,
+        "mid": "07/08/65 09:00-12:00 ILC106",
         "final": "04/10/65 09:00-12:00 ILC106",
         "lecturer": "นางสาวKumiko Mishima / อาจารย์วิศรุตา โมราชาติ"
     },
@@ -247,7 +247,7 @@
         "sec": 2,
         "remain": 36,
         "receive": 36,
-        "mid": null,
+        "mid": "07/08/65 09:00-12:00 ILC106",
         "final": "04/10/65 09:00-12:00 ILC106",
         "lecturer": "นางสาวKumiko Mishima / อาจารย์วิศรุตา โมราชาติ"
     },
@@ -261,7 +261,7 @@
         "sec": 1,
         "remain": 30,
         "receive": 30,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 CLB3205",
         "final": "08/10/65 13:00-16:00 CLB3205",
         "lecturer": "Mr.Masaki Koji"
     },
@@ -275,7 +275,7 @@
         "sec": 2,
         "remain": 30,
         "receive": 30,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 CLB3205",
         "final": "08/10/65 13:00-16:00 CLB3205",
         "lecturer": "Mr.Masaki Koji"
     },
@@ -289,7 +289,7 @@
         "sec": 2,
         "remain": 30,
         "receive": 30,
-        "mid": null,
+        "mid": "07/08/65 13:00-15:00 CLB3205",
         "final": "09/10/65 13:00-15:00 CLB2214",
         "lecturer": "Mr.Unju Jumpei"
     },
@@ -303,7 +303,7 @@
         "sec": 3,
         "remain": 30,
         "receive": 30,
-        "mid": null,
+        "mid": "07/08/65 13:00-15:00 CLB3205",
         "final": "09/10/65 13:00-15:00 CLB2214",
         "lecturer": "Mr.Unju Jumpei"
     },
@@ -317,7 +317,7 @@
         "sec": 1,
         "remain": 29,
         "receive": 30,
-        "mid": null,
+        "mid": "08/08/65 09:00-12:00 CLB3205",
         "final": "05/10/65 13:00-16:00 CLB2214",
         "lecturer": "นางสาวKumiko Mishima"
     },
@@ -331,7 +331,7 @@
         "sec": 1,
         "remain": 28,
         "receive": 30,
-        "mid": null,
+        "mid": "04/08/65 13:00-15:00 ILC102",
         "final": "03/10/65 13:00-15:00 ILC102",
         "lecturer": "อาจารย์ชาคริยา ชุมมวล"
     },
@@ -345,7 +345,7 @@
         "sec": 2,
         "remain": 28,
         "receive": 30,
-        "mid": null,
+        "mid": "08/08/65 09:00-12:00 CLB3205",
         "final": "05/10/65 13:00-16:00 CLB2214",
         "lecturer": "นางสาวKumiko Mishima"
     },
@@ -359,7 +359,7 @@
         "sec": 3,
         "remain": 28,
         "receive": 28,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 CLB3205",
         "final": "08/10/65 13:00-16:00 CLB3205",
         "lecturer": "Mr.Masaki Koji"
     },
@@ -373,7 +373,7 @@
         "sec": 1,
         "remain": 25,
         "receive": 25,
-        "mid": null,
+        "mid": "03/08/65 16:00-18:00 ILC205",
         "final": "08/10/65 16:00-19:00 ILC205",
         "lecturer": "Mr.Yohei Sasaki"
     },
@@ -387,7 +387,7 @@
         "sec": 3,
         "remain": 24,
         "receive": 30,
-        "mid": null,
+        "mid": "08/08/65 09:00-12:00 CLB3205",
         "final": "05/10/65 13:00-16:00 CLB2214",
         "lecturer": "นางสาวKumiko Mishima"
     },
@@ -401,7 +401,7 @@
         "sec": 2,
         "remain": 23,
         "receive": 25,
-        "mid": null,
+        "mid": "03/08/65 16:00-18:00 ILC205",
         "final": "08/10/65 16:00-19:00 ILC205",
         "lecturer": "Mr.Yohei Sasaki"
     },
@@ -415,7 +415,7 @@
         "sec": 3,
         "remain": 23,
         "receive": 30,
-        "mid": null,
+        "mid": "05/08/65 13:00-16:00 ILC210",
         "final": "10/10/65 13:00-15:00 ILC101",
         "lecturer": "ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์ / นางสาวสุทธิดา พันธุ์โคตร"
     },
@@ -429,7 +429,7 @@
         "sec": 1,
         "remain": 23,
         "receive": 30,
-        "mid": null,
+        "mid": "07/08/65 13:00-15:00 CLB3205",
         "final": "09/10/65 13:00-15:00 CLB2214",
         "lecturer": "Mr.Unju Jumpei"
     },
@@ -443,7 +443,7 @@
         "sec": 1,
         "remain": 22,
         "receive": 22,
-        "mid": null,
+        "mid": "03/08/65 13:00-16:00 ILC308",
         "final": "09/10/65 13:00-16:00 ILC205",
         "lecturer": "อาจารย์วนัสนันทน์ สุกทน"
     },
@@ -457,7 +457,7 @@
         "sec": 2,
         "remain": 22,
         "receive": 27,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 ILC302",
         "final": "11/10/65 13:00-16:00 ILC302",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร / ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     },
@@ -471,7 +471,7 @@
         "sec": 2,
         "remain": 21,
         "receive": 21,
-        "mid": null,
+        "mid": "03/08/65 13:00-16:00 ILC308",
         "final": "09/10/65 13:00-16:00 ILC205",
         "lecturer": "อาจารย์วนัสนันทน์ สุกทน"
     },
@@ -485,7 +485,7 @@
         "sec": 1,
         "remain": 15,
         "receive": 15,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 ILC302",
         "final": "11/10/65 13:00-16:00 ILC302",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร / ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     },
@@ -499,8 +499,8 @@
         "sec": 1,
         "remain": 11,
         "receive": 15,
-        "mid": null,
-        "final": "04/10/65 13:00-16:00 ACB-พวงพยอม",
+        "mid": "08/08/65 13:00-16:00 CLB3303",
+        "final": "04/10/65 13:00-16:00 ACB",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร"
     },
     {
@@ -513,7 +513,7 @@
         "sec": 1,
         "remain": 7,
         "receive": 10,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 CLB3205",
         "final": "08/10/65 13:00-16:00 CLB3205",
         "lecturer": "Mr.Masaki Koji"
     },
@@ -527,7 +527,7 @@
         "sec": 1,
         "remain": 7,
         "receive": 8,
-        "mid": null,
+        "mid": "05/08/65 13:00-16:00 ILC210",
         "final": "10/10/65 13:00-15:00 ILC101",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร / ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     },
@@ -541,7 +541,7 @@
         "sec": 3,
         "remain": 6,
         "receive": 25,
-        "mid": null,
+        "mid": "05/08/65 09:00-12:00 ILC207",
         "final": "11/10/65 13:00-15:00 ILC207",
         "lecturer": "ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     },
@@ -555,7 +555,7 @@
         "sec": 3,
         "remain": 1,
         "receive": 20,
-        "mid": null,
+        "mid": "06/08/65 13:00-16:00 ILC302",
         "final": "11/10/65 13:00-16:00 ILC302",
         "lecturer": "นางสาวสุทธิดา พันธุ์โคตร / ผู้ช่วยศาสตราจารย์เสาวลักษณ์ สาระพงษ์"
     }
