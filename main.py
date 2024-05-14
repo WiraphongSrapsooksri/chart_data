@@ -466,8 +466,8 @@ class UBU:
             code = cells[1].find('a').text.strip()
             subject_data = cells[2].decode_contents().split("<br/>")
             name = subject_data[0].split("<font")[1].split(">")[1]
-            credit = cells[3].text.strip()
-            raw_time = ' & '.join(cells[5].text.strip().replace('จ.','|จ ').replace('อ.','|อ ').replace('พ.','|พ ').replace('พฤ.','|พฤ ').replace('ศ.','|ศ ').replace('ส.','|ส ').replace('อา.','|อา ').split('|')[1:])
+            credit = cells[3].text.strip().replace('(', ' (')
+            raw_time = ' & '.join(cells[5].text.strip().replace('จ.','|Mo').replace('อ.','|Tu').replace('พ.','|We').replace('พฤ.','|Th').replace('ศ.','|Fr').replace('ส.','|Sa').replace('อา.','|Su').split('|')[1:])
             time = raw_time.split('สอบ  ')[0]
             sec = int(cells[4].text.strip())
             remain = int(cells[7].text.strip())
